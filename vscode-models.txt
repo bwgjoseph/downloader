@@ -1,0 +1,3 @@
+java https://prod.intellicode.vsengsaas.visualstudio.com/api/v1/model/common/java/intellisense-members/output/latest
+javascript https://prod.intellicode.vsengsaas.visualstudio.com/api/v1/model/common/javascript/intellisense-members/output/latest
+python https://prod.intellicode.vsengsaas.visualstudio.com/api/v1/model/common/python/intellisense-members/output/latest

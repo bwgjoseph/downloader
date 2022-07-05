@@ -30,6 +30,20 @@ On PowerShell, run
 
 By default, the plugins will be downloaded to `_vscode_plugins` directory
 
+## VSCode Model Downloads
+
+Powershell script to download models based off `vscode-models.txt` which is extracted (manually).
+
+### Run
+
+On PowerShell, run
+
+```powershell
+.\\vscode-models-downloads.ps1 -username joseph -version 1.2.3
+```
+
+By default, the installers will be downloaded to `_vscode_models` directory
+
 ## IntelliJ Plugin Downloads
 
 Powershell script to download plugins based off `intellij-plugins.txt` which is extracted (manually).
@@ -52,4 +66,4 @@ By default, the installers will be downloaded to `_intellij_plugins_2022.1.3` di
 - [ ] Support downloading files not from `winget`
 - [x] Support downloading VSCode extension
 - [x] Support downloading IntelliJ extension
-- [ ] Support downloading VSCode intellicode models
+- [x] Support downloading VSCode intellicode models
