@@ -18,7 +18,7 @@ By default, the installers will be downloaded to `_winget_applications` director
 
 ## VSCode Plugin Downloads
 
-Powershell script to download application installers based off `vscode-plugins.txt` which is extracted (manually). It is possible to extract a list of plugins by running `code --list-extensions > vscode-plugins.txt`.
+Powershell script to download plugins based off `vscode-plugins.txt` which is extracted (manually). It is possible to extract a list of plugins by running `code --list-extensions > vscode-plugins.txt`.
 
 ### Run
 
@@ -28,7 +28,21 @@ On PowerShell, run
 .\vscode-plugin-downloads.ps1
 ```
 
-By default, the installers will be downloaded to `_vscode_plugins` directory
+By default, the plugins will be downloaded to `_vscode_plugins` directory
+
+## IntelliJ Plugin Downloads
+
+Powershell script to download plugins based off `intellij-plugins.txt` which is extracted (manually).
+
+### Run
+
+On PowerShell, run
+
+```powershell
+.\intellij-plugin-downloads.ps1 -version 2022.1.3
+```
+
+By default, the installers will be downloaded to `_intellij_plugins_2022.1.3` directory
 
 ## Todo
 
@@ -37,5 +51,5 @@ By default, the installers will be downloaded to `_vscode_plugins` directory
 - [ ] Compress downloaded files into archive
 - [ ] Support downloading files not from `winget`
 - [x] Support downloading VSCode extension
-- [ ] Support downloading IntelliJ extension
+- [x] Support downloading IntelliJ extension
 - [ ] Support downloading VSCode intellicode models
