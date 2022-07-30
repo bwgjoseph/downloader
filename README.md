@@ -11,6 +11,7 @@ Powershell script to download application installers based off `winget-applicati
 On PowerShell, run
 
 ```powershell
+cd winget
 .\winget-downloads.ps1
 ```
 
@@ -25,6 +26,7 @@ Powershell script to download plugins based off `vscode-plugins.txt` which is ex
 On PowerShell, run
 
 ```powershell
+cd plugins/vscode
 .\vscode-plugin-downloads.ps1
 ```
 
@@ -53,10 +55,11 @@ Powershell script to download plugins based off `intellij-plugins.txt` which is 
 On PowerShell, run
 
 ```powershell
+cd plugins/intellij
 .\intellij-plugin-downloads.ps1 -version 2022.1.3
 ```
 
-By default, the installers will be downloaded to `_intellij_plugins_2022.1.3` directory
+By default, the installers will be downloaded to `_intellij_plugins_2022.1.3` directory. If `version` is not specific, the default will be `2022.1.3`
 
 ## Todo
 

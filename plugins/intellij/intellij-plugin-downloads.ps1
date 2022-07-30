@@ -13,12 +13,19 @@ param ($version)
 
 Write-Host "Starting..."
 
+# Set to a default version if not provided
+if ([String]::IsNullOrWhiteSpace($version)) {
+    $version = "2022.1.3"
+}
+
 $product_code="IU" # IntelliJ IDEA Ultimate
 $build_number="221.5921.22" # 2022.1.3
 
 $default_download_dir="./_intellij_plugins_$version"
 
-# # For each plugin
+Write-Host $default_download_dir
+
+# For each plugin
 Get-Content .\intellij-plugins.txt | ForEach-Object {
     $plugin=$_
 
