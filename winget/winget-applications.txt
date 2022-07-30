@@ -25,3 +25,4 @@ Postman.Postman
 PuTTY.PuTTY
 Python.Python.3
 suse.RancherDesktop
+VMware.WorkstationPro

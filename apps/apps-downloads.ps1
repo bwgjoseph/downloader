@@ -1,9 +1,6 @@
-# to sort
-# Get-Content .\winget-applications.txt | sort | get-unique | Set-Content winget-applications.txt
-
 Write-Host "Starting..."
 
-$default_download_dir="./_winget_applications"
+$default_download_dir="./_applications"
 
 # initialize empty array
 $toJsonArray= @()
@@ -52,6 +49,6 @@ $toJsonArray += ConvertFrom-Json $json
 }
 
 # convert the final result to json file
-$toJsonArray | ConvertTo-Json | Set-Content last_processed.json
+$toJsonArray | ConvertTo-Json | Set-Content winget-last_processed.json
 
 Write-Host "Completed"
