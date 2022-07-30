@@ -2,3 +2,7 @@
 /_vscode_plugins/
 /_intellij_plugins_*
 /_vscode_models/
+/apps/_applications
+/plugins/intellij
+/plugins/vscode/_vscode_models
+/plugins/vscode/_vscode_plugins
