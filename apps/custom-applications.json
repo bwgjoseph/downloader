@@ -1,0 +1,20 @@
+[
+  {
+    "id": "Adoptium.Temurin17",
+    "application": "Adoptium.Temurin17.windows",
+    "version": "17.04",
+    "download_url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.4_8.zip"
+  },
+  {
+    "id": "Idea.IntelliJ.Ultimate",
+    "application": "Idea.IntelliJ.Ultimate",
+    "version": "2022.2",
+    "download_url": "https://download.jetbrains.com/idea/ideaIU-2022.2.win.zip"
+  },
+  {
+    "id": "FreeFileSync",
+    "application": "FreeFileSync",
+    "version": "11.23",
+    "download_url": "https://freefilesync.org/download/FreeFileSync_11.23_Windows_Setup.exe"
+  }
+]

@@ -17,6 +17,21 @@ cd winget
 
 By default, the installers will be downloaded to `_winget_applications` directory
 
+## Applications Downloads
+
+Powershell script to download application installers based off `custom-applications.txt` which is extracted (manually). This is to support downloading of applications that is not supported by `winget`
+
+### Run
+
+On PowerShell, run
+
+```powershell
+cd apps
+.\apps-downloads.ps1
+```
+
+By default, the installers will be downloaded to `_applications` directory
+
 ## VSCode Plugin Downloads
 
 Powershell script to download plugins based off `vscode-plugins.txt` which is extracted (manually). It is possible to extract a list of plugins by running `code --list-extensions > vscode-plugins.txt`.
@@ -66,7 +81,7 @@ By default, the installers will be downloaded to `_intellij_plugins_2022.1.3` di
 - [ ] Extract application list automatically from `winget list`
 - [ ] Compare last downloaded version with current run to download only updated applications
 - [ ] Compress downloaded files into archive
-- [ ] Support downloading files not from `winget`
+- [x] Support downloading files not from `winget`
 - [x] Support downloading VSCode extension
 - [x] Support downloading IntelliJ extension
 - [x] Support downloading VSCode intellicode models
