@@ -14,7 +14,10 @@ jd-intellij
 Key%20Promoter%20X
 manjaro.mpb
 me.xdrop.night-owl
+mobi.hsz.idea.gitignore
 mockitools
+org.apache.camel
+org.intellij.scala
 org.jetbrains.jumpToLine
 org.jetbrains.plugins.spotbugs
 org.mapstruct.intellij

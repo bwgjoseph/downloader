@@ -16,5 +16,95 @@
     "application": "FreeFileSync",
     "version": "11.23",
     "download_url": "https://freefilesync.org/download/FreeFileSync_11.23_Windows_Setup.exe"
+  },
+  {
+    "id": "Mattermost",
+    "application": "Mattermost",
+    "version": "5.1.1",
+    "download_url": "https://releases.mattermost.com/desktop/5.1.1/mattermost-desktop-setup-5.1.1-win.exe"
+  },
+  {
+    "id": "Lens",
+    "application": "Lens",
+    "version": "v6.0.0-latest.20220728.2",
+    "download_url": "https://api.k8slens.dev/binaries/Lens%20Setup%206.0.0-latest.20220728.2.exe"
+  },
+  {
+    "id": "Everything",
+    "application": "Everything",
+    "version": "1.4.1.1017",
+    "download_url": "https://www.voidtools.com/Everything-1.4.1.1017.x64-Setup.exe"
+  },
+  {
+    "id": "Dive",
+    "application": "Dive",
+    "version": "0.10.0",
+    "download_url": "https://github.com/wagoodman/dive/releases/download/v0.10.0/dive_0.10.0_windows_amd64.zip"
+  },
+  {
+    "id": "Jib",
+    "application": "Jib",
+    "version": "0.10.0",
+    "download_url": "https://github.com/GoogleContainerTools/jib/releases/download/v0.10.0-cli/jib-jre-0.10.0.zip"
+  },
+  {
+    "id": "Eclipse.JMC",
+    "application": "Eclipse.JMC",
+    "version": "8.2.0",
+    "download_url": "https://github.com/adoptium/jmc-build/releases/download/8.2.0/org.openjdk.jmc-8.2.0-win32.win32.x86_64.zip"
+  },
+  {
+    "id": "jq",
+    "application": "jq",
+    "version": "1.6",
+    "download_url": "https://github.com/stedolan/jq/releases/download/jq-1.6/jq-win64.exe"
+  },
+  {
+    "id": "jwt-cli",
+    "application": "jwt-cli",
+    "version": "5.0.3",
+    "download_url": "https://github.com/mike-engel/jwt-cli/releases/download/5.0.3/jwt-windows.tar.gz"
+  },
+  {
+    "id": "kubectl",
+    "application": "kubectl",
+    "version": "1.24.0",
+    "download_url": "https://dl.k8s.io/release/v1.24.0/bin/windows/amd64/kubectl.exe"
+  },
+  {
+    "id": "kustomize",
+    "application": "kustomize",
+    "version": "4.5.6",
+    "download_url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.5.6/kustomize_v4.5.6_windows_amd64.tar.gz"
+  },
+  {
+    "id": "mobaxterm",
+    "application": "mobaxterm",
+    "version": "22.1",
+    "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v22.1.zip"
+  },
+  {
+    "id": "mongosh",
+    "application": "mongosh",
+    "version": "1.5.4",
+    "download_url": "https://downloads.mongodb.com/compass/mongosh-1.5.4-win32-x64.zip"
+  },
+  {
+    "id": "mongo-database-tools",
+    "application": "mongo-database-tools",
+    "version": "100.5.4",
+    "download_url": "https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.5.4.zip"
+  },
+  {
+    "id": "openssl",
+    "application": "openssl",
+    "version": "3.0.5",
+    "download_url": "https://slproweb.com/download/Win64OpenSSL-3_0_5.exe"
+  },
+  {
+    "id": "visualvm",
+    "application": "visualvm",
+    "version": "2.1.4",
+    "download_url": "https://github.com/oracle/visualvm/releases/download/2.1.4/visualvm_214.zip"
   }
 ]

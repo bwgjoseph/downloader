@@ -56,7 +56,7 @@ Powershell script to download models based off `vscode-models.txt` which is extr
 On PowerShell, run
 
 ```powershell
-.\\vscode-models-downloads.ps1 -username joseph -version 1.2.3
+.\\vscode-models-downloads.ps1 -username joseph -version 1.2.22
 ```
 
 By default, the installers will be downloaded to `_vscode_models` directory
@@ -71,10 +71,10 @@ On PowerShell, run
 
 ```powershell
 cd plugins/intellij
-.\intellij-plugin-downloads.ps1 -version 2022.1.3
+.\intellij-plugin-downloads.ps1 -version 2022.2
 ```
 
-By default, the installers will be downloaded to `_intellij_plugins_2022.1.3` directory. If `version` is not specific, the default will be `2022.1.3`
+By default, the installers will be downloaded to `_intellij_plugins_2022.2` directory. If `version` is not specific, the default will be `2022.2`
 
 ## Todo
 
