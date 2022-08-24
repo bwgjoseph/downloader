@@ -102,6 +102,12 @@
     "download_url": "https://slproweb.com/download/Win64OpenSSL-3_0_5.exe"
   },
   {
+    "id": "tabby",
+    "application": "tabby",
+    "version": "1.0.183",
+    "download_url": "https://github.com/Eugeny/tabby/releases/download/v1.0.183/tabby-1.0.183-setup-x64.exe"
+  },
+  {
     "id": "visualvm",
     "application": "visualvm",
     "version": "2.1.4",

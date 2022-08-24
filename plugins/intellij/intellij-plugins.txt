@@ -21,6 +21,7 @@ org.intellij.scala
 org.jetbrains.jumpToLine
 org.jetbrains.plugins.spotbugs
 org.mapstruct.intellij
+org.mvnsearch.jetbrains.plugins.httpx-jetbrains-plugin
 org.sonarlint.idea
 palantir-java-format
 PlantUML%20integration

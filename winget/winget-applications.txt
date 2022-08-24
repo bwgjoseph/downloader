@@ -15,6 +15,7 @@ Microsoft.WindowsTerminal
 Microsoft.WindowsTerminal.Preview
 MKLabs.StarUML
 MongoDB.Compass.Full
+Mozilla.Firefox
 NickeManarin.ScreenToGif
 Notepad++.Notepad++
 Obsidian.Obsidian
