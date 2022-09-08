@@ -112,5 +112,23 @@
     "application": "visualvm",
     "version": "2.1.4",
     "download_url": "https://github.com/oracle/visualvm/releases/download/2.1.4/visualvm_214.zip"
+  },
+  {
+    "id": "studio3t",
+    "application": "studio3t",
+    "version": "2022.8.1",
+    "download_url": "https://download.studio3t.com/studio-3t/windows/2022.8.1/studio-3t-x64.zip"
+  },
+  {
+    "id": "windows terminal",
+    "application": "windows terminal preview",
+    "version": "1.15.228",
+    "download_url": "https://github.com/microsoft/terminal/releases/download/v1.15.2282.0/Microsoft.WindowsTerminalPreview_Win10_1.15.2282.0_8wekyb3d8bbwe.msixbundle"
+  },
+  {
+    "id": "windows terminal",
+    "application": "windows terminal",
+    "version": "1.14.228",
+    "download_url": "https://github.com/microsoft/terminal/releases/download/v1.14.2281.0/Microsoft.WindowsTerminal_Win10_1.14.2281.0_8wekyb3d8bbwe.msixbundle"
   }
 ]
