@@ -130,5 +130,11 @@
     "application": "windows terminal",
     "version": "1.14.228",
     "download_url": "https://github.com/microsoft/terminal/releases/download/v1.14.2281.0/Microsoft.WindowsTerminal_Win10_1.14.2281.0_8wekyb3d8bbwe.msixbundle"
+  },
+  {
+    "id": "helm",
+    "application": "helm",
+    "version": "3.9.4",
+    "download_url": "https://get.helm.sh/helm-v3.9.4-windows-amd64.zip"
   }
 ]
