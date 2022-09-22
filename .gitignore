@@ -1,8 +1,6 @@
-/_winget_applications/
-/_vscode_plugins/
-/_intellij_plugins_*
-/_vscode_models/
 /apps/_applications
-/plugins/intellij
-/plugins/vscode/_vscode_models
-/plugins/vscode/_vscode_plugins
+/github/_github_applications/
+/plugins/vscode/_vscode_plugins/
+/plugins/vscode/_vscode_models/
+/plugins/intellij/_intellij_plugins_*
+/winget/_winget_applications/
