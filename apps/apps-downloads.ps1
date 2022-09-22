@@ -1,3 +1,6 @@
+# To sort
+# Get-Content .\custom-applications.json | ConvertFrom-Json | Sort-Object id | ConvertTo-Json | Set-Content custom-applications.json
+
 Write-Host "Starting..."
 
 $default_download_dir="./_applications"
