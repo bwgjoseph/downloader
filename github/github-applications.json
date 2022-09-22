@@ -1,0 +1,46 @@
+[
+  {
+    "repo": "https://github.com/adoptium/jmc-build/",
+    "pattern": "*win32.x86_64*.zip"
+  },
+  {
+    "repo": "https://github.com/adoptium/temurin17-binaries/",
+    "pattern": "*jdk_x64_windows*.zip"
+  },
+  {
+    "repo": "https://github.com/Eugeny/tabby/",
+    "pattern": "*portable-x64*.zip"
+  },
+  {
+    "repo": "https://github.com/GoogleContainerTools/jib/",
+    "pattern": "*jre*.zip"
+  },
+  {
+    "repo": "https://github.com/kubernetes-sigs/kustomize/",
+    "pattern": "*windows_amd64*.tar.gz"
+  },
+  {
+    "repo": "https://github.com/mattermost/desktop/",
+    "pattern": "*desktop*x64.msi"
+  },
+  {
+    "repo": "https://github.com/microsoft/terminal/",
+    "pattern": "*Win10_*.msixbundle"
+  },
+  {
+    "repo": "https://github.com/mike-engel/jwt-cli/",
+    "pattern": "*windows*.tar.gz"
+  },
+  {
+    "repo": "https://github.com/oracle/visualvm/",
+    "pattern": "*.zip"
+  },
+  {
+    "repo": "https://github.com/stedolan/jq/",
+    "pattern": "*win64*.exe"
+  },
+  {
+    "repo": "https://github.com/wagoodman/dive/",
+    "pattern": "*windows*.zip"
+  }
+]

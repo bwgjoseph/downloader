@@ -36,6 +36,10 @@ By default, the installers will be downloaded to `_applications` directory
 
 Powershell script to download plugins based off `vscode-plugins.txt` which is extracted (manually). It is possible to extract a list of plugins by running `code --list-extensions > vscode-plugins.txt`.
 
+### Prerequisite
+
+This requires [jq](https://github.com/stedolan/jq) to be available
+
 ### Run
 
 On PowerShell, run
@@ -76,12 +80,34 @@ cd plugins/intellij
 
 By default, the installers will be downloaded to `_intellij_plugins_2022.2` directory. If `version` is not specific, the default will be `2022.2`
 
+## Github Applications Downloads
+
+Powershell script to download application based off `github-applications.txt` which relies on `Github Releases`
+
+### Prerequisite
+
+This requires [github-cli](https://cli.github.com/) to be available
+
+### Run
+
+On PowerShell, run
+
+```powershell
+cd github
+.\github-downloads.ps1
+```
+
+By default, the installers will be downloaded to `_github_applications` directory
+
+**Note** that it does not support filtering to specific "application" or "version" to download
+
 ## Todo
 
-- [ ] Extract application list automatically from `winget list`
+- [x] Extract application list automatically from `winget list`
 - [ ] Compare last downloaded version with current run to download only updated applications
 - [ ] Compress downloaded files into archive
 - [x] Support downloading files not from `winget`
 - [x] Support downloading VSCode extension
 - [x] Support downloading IntelliJ extension
 - [x] Support downloading VSCode intellicode models
+- [x] Support downloading using github-cli
