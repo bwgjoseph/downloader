@@ -1,11 +1,5 @@
 [
   {
-    "id": "Everything",
-    "application": "Everything",
-    "version": "1.4.1.1017",
-    "download_url": "https://www.voidtools.com/Everything-1.4.1.1017.x64-Setup.exe"
-  },
-  {
     "id": "FreeFileSync",
     "application": "FreeFileSync",
     "version": "11.23",
