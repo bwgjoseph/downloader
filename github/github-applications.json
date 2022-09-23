@@ -36,8 +36,24 @@
     "pattern": "*.zip"
   },
   {
+    "repo": "https://github.com/orhun/git-cliff/",
+    "pattern": "*x86_64-pc-windows-msvc*.zip"
+  },
+  {
+    "repo": "https://github.com/servicex-sh/httpx/",
+    "pattern": "*windows-x86_64*.zip"
+  },
+  {
     "repo": "https://github.com/stedolan/jq/",
     "pattern": "*win64*.exe"
+  },
+  {
+    "repo": "https://github.com/veler/DevToys/",
+    "pattern": "*DevToys*.msixbundle"
+  },
+  {
+    "repo": "https://github.com/vmware-tanzu/octant/",
+    "pattern": "*Setup.*.exe"
   },
   {
     "repo": "https://github.com/wagoodman/dive/",

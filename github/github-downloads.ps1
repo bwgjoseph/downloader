@@ -1,5 +1,5 @@
 # To sort
-# Get-Content .\github-applications.json | ConvertFrom-Json | Sort-Object id | ConvertTo-Json | Set-Content github-applications.json
+# Get-Content .\github-applications.json | ConvertFrom-Json | Sort-Object repo | ConvertTo-Json | Set-Content github-applications.json
 
 Write-Host "Starting..."
 
