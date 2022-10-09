@@ -1,4 +1,4 @@
-# see https://github.com/MicrosoftDocs/intellicode/issues/4#issuecomment-450935237 and https://github.com/MicrosoftDocs/intellicode/issues/4
+﻿# see https://github.com/MicrosoftDocs/intellicode/issues/4#issuecomment-450935237 and https://github.com/MicrosoftDocs/intellicode/issues/4
 
 param ($username, $version)
 
@@ -11,9 +11,7 @@ $toJsonArray= @()
 
 # # For each application
 Get-Content .\vscode-models.txt | ForEach-Object {
-    $model=$_ -split ' '
-    $language=$model[0]
-    $url=$model[1]
+    $language, $url = $_ -split ' '
 
     $result=curl -s -XGET $url
 
@@ -25,23 +23,18 @@ Get-Content .\vscode-models.txt | ForEach-Object {
 
     $filename="$($modelId)_$($id)"
 
-# # here-string don't like white-spaces so we can't indent here
-$json= @"
-{
-    "analyzerName": "intellisense-members",
-    "languageName": "$language",
-    "identity": {
-        "modelId": "$modelId",
-        "outputId": "$id",
-        "modifiedTimeUtc": "$updated"
-    },
-    "filePath": "c:\\Users\\$username\\.vscode\\extensions\\visualstudioexptteam.vscodeintellicode-$version\\cache\\$filename",
-    "lastAccessTimeUtc": "2022-06-29T16:49:32.785Z"
-}
-"@
-
-# append to the array
-$toJsonArray += ConvertFrom-Json $json
+    # append to the array
+    $toJsonArray += [PSCustomObject]@{
+        'analyzerName' = "intellisense-members"
+        'languageName' = "$language"
+        'identity' = [PSCustomObject]@{
+            'modelId' = "$modelId"
+            'outputId' = "$id"
+            'modifiedTimeUtc' = "$updated"
+        }
+        'filePath' = "c:\Users\$username\.vscode\extensions\visualstudioexptteam.vscodeintellicode-$version\cache\$filename"
+        'lastAccessTimeUtc' = "2022-06-29T16:49:32.785Z"
+    }
 
     Write-Host "Starting download for $language"
     # -L: follow redirect
