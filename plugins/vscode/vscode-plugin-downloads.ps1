@@ -1,4 +1,4 @@
-# credits to https://github.com/deskoh/download-scripts/blob/main/vscode-visx.sh for the marketplace API
+﻿# credits to https://github.com/deskoh/download-scripts/blob/main/vscode-visx.sh for the marketplace API
 
 # to sort
 # Get-Content .\vscode-plugins.txt | sort | get-unique | Set-Content vscode-plugins.txt
@@ -15,28 +15,25 @@ $url="https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery"
 Get-Content .\vscode-plugins.txt | ForEach-Object {
     $plugin=$_
 
-# For some unknown reason, quote must be escape before passing to curl
-$data_binary=@"
-{
-    \"assetTypes\": [\"Microsoft.VisualStudio.Services.VSIXPackage\"],
-    \"filters\": [
-        {
-            \"criteria\": [
-                {
-                    \"filterType\": 7,
-                    \"value\": \"$plugin\"
-                }
-            ]
-        }
-    ],
-    \"flags\": 3
-}
-"@
+    $data_binary = ConvertTo-Json -Depth 10 -Compress -InputObject @{
+        "assetTypes" = @("Microsoft.VisualStudio.Services.VSIXPackage")
+        "filters" = @(
+            @{
+                "criteria" = @(
+                    @{
+                        "filterType" = 7
+                        "value" = "$plugin"
+                    }
+                )
+            }
+        )
+        "flags" = 3
+    }
 
     Write-Host "Starting download for $plugin"
 
     # make post request to vscode marketplace
-    $result=curl -s -XPOST $url --header $header_accept --header $header_content_type --data-raw $data_binary
+    $result="$data_binary" | curl -s -XPOST $url --header $header_accept --header $header_content_type --data '@-'
 
     # parse the result
     # $extension_name=$result | jq -r '.results[0].extensions[0].extensionName'
