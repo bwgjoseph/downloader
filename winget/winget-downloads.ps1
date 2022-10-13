@@ -1,4 +1,4 @@
-# to sort
+﻿# to sort
 # Get-Content .\winget-applications.txt | sort | get-unique | Set-Content winget-applications.txt
 
 Write-Host "Starting..."
@@ -27,20 +27,16 @@ Get-Content .\winget-applications.txt | ForEach-Object {
     $version=$manifest | Select-String $extract_version -NoEmphasis | Out-String | ForEach-Object { $_.Trim() } | ForEach-Object { $_.SubString($extract_version.Length) }
     $url=$manifest | Select-String $extract_url -NoEmphasis | Out-String | ForEach-Object { $_.Trim() } | ForEach-Object { $_.SubString($extract_url.Length) }
 
-# here-string don't like white-spaces so we can't indent here
-$json= @"
-{
-    "id": "$application",
-    "application": "$application",
-    "version": "$version",
-    "download_url": "$url"
-}
-"@
-# what we can do with the json is to use it for the next run where
-# we don't download version that was not updated to save bandwidth and unnecessary downloads
+    # what we can do with the json is to use it for the next run where
+    # we don't download version that was not updated to save bandwidth and unnecessary downloads
 
-# append to the array
-$toJsonArray += ConvertFrom-Json $json
+    # append to the array
+    $toJsonArray += [PSCustomObject]@{
+        'id'           = "$application"
+        'application'  = "$application"
+        'version'      = "$version"
+        'download_url' = "$url"
+    }
 
     Write-Host "Starting download for $application"
     # -L: follow redirect
