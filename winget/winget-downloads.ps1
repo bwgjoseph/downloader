@@ -1,4 +1,4 @@
-# to sort
+﻿# to sort
 # Get-Content .\winget-applications.txt | sort | get-unique | Set-Content winget-applications.txt
 
 Write-Host "Starting..."
@@ -16,31 +16,26 @@ Get-Content .\winget-applications.txt | ForEach-Object {
     $manifest=winget show $application
 
     # manifest to extract
-    $extract_version="Version: "
-    $extract_url="Download Url: "
+    $extract_version="(?<=Version:).*"
+    $extract_url='(?<=Download Url:|Installer Url:).*'
 
     # using the manifest object
-    # filter it to just version row
-    # convert from object into string for manipulation
-    # trim the string
-    # extract just the value for version / url
-    $version=$manifest | Select-String $extract_version -NoEmphasis | Out-String | ForEach-Object { $_.Trim() } | ForEach-Object { $_.SubString($extract_version.Length) }
-    $url=$manifest | Select-String $extract_url -NoEmphasis | Out-String | ForEach-Object { $_.Trim() } | ForEach-Object { $_.SubString($extract_url.Length) }
+    # find the version row and match what comes after it
+    # get the matched string value from the regex
+    # trim it to remove whitespace and get just the version / url
+    $version=$manifest | Select-String -Pattern $extract_version | Select-Object -ExpandProperty Matches | Select-Object -ExpandProperty Value | ForEach-Object Trim
+    $url=$manifest | Select-String -Pattern $extract_url | Select-Object -ExpandProperty Matches | Select-Object -ExpandProperty Value | ForEach-Object Trim
 
-# here-string don't like white-spaces so we can't indent here
-$json= @"
-{
-    "id": "$application",
-    "application": "$application",
-    "version": "$version",
-    "download_url": "$url"
-}
-"@
-# what we can do with the json is to use it for the next run where
-# we don't download version that was not updated to save bandwidth and unnecessary downloads
+    # what we can do with the json is to use it for the next run where
+    # we don't download version that was not updated to save bandwidth and unnecessary downloads
 
-# append to the array
-$toJsonArray += ConvertFrom-Json $json
+    # append to the array
+    $toJsonArray += [PSCustomObject]@{
+        'id'           = "$application"
+        'application'  = "$application"
+        'version'      = "$version"
+        'download_url' = "$url"
+    }
 
     Write-Host "Starting download for $application"
     # -L: follow redirect
