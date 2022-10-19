@@ -9,19 +9,24 @@
 # Get-Content .\intellij-plugins.txt | sort | get-unique | Set-Content intellij-plugins.txt
 
 # take arg from command line
-param ($version)
+param ($version, $build)
 
 Write-Host "Starting..."
 
 # Set to a default version if not provided
 if ([String]::IsNullOrWhiteSpace($version)) {
-    $version = "2022.2"
+    $version = "2022.2.3"
+}
+
+if ([String]::IsNullOrWhiteSpace($build)) {
+    $build = "222.4345.14"
 }
 
 $product_code="IU" # IntelliJ IDEA Ultimate
 # 2022.1.3 - 221.5921.22
 # 2022.2 - 222.3345.118
-$build_number="222.3345.118" # 2022.2
+# 2022.2.3 - 222.4345.14
+$build="222.4345.14"
 
 $default_download_dir="./_intellij_plugins_$version"
 
@@ -33,7 +38,7 @@ Get-Content .\intellij-plugins.txt | ForEach-Object {
 
     Write-Host "Starting download for $plugin"
 
-    $url="https://plugins.jetbrains.com/pluginManager?action=download&id=$plugin&build=$product_code-$build_number"
+    $url="https://plugins.jetbrains.com/pluginManager?action=download&id=$plugin&build=$product_code-$build"
 
     # -L: follow redirect
     # -O -J: we want to retain the remote filename instead of constructing our own
