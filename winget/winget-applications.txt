@@ -6,6 +6,7 @@ Google.Chrome
 HTTPToolKit.HTTPToolKit
 KDE.KDiff3
 Kubernetes.minikube
+Microsoft.DotNet.DesktopRuntime.6
 Microsoft.Edge
 Microsoft.EdgeWebView2Runtime
 Microsoft.PowerShell
