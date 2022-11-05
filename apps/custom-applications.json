@@ -3,54 +3,63 @@
     "id": "FreeFileSync",
     "application": "FreeFileSync",
     "version": "11.27",
+    "source": "https://freefilesync.org/download.php",
     "download_url": "https://freefilesync.org/download/FreeFileSync_11.27_Windows_Setup.exe"
   },
   {
     "id": "helm",
     "application": "helm",
     "version": "3.10.1",
+    "source": "https://github.com/helm/helm/releases",
     "download_url": "https://get.helm.sh/helm-v3.10.1-windows-amd64.zip"
   },
   {
     "id": "Idea.IntelliJ.Ultimate",
     "application": "Idea.IntelliJ.Ultimate",
     "version": "2022.2.3",
+    "source": "https://www.jetbrains.com/idea/download/#section=windows",
     "download_url": "https://download.jetbrains.com/idea/ideaIU-2022.2.3.win.zip"
   },
   {
     "id": "kubectl",
     "application": "kubectl",
     "version": "1.25.0",
+    "source": "https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/",
     "download_url": "https://dl.k8s.io/release/v1.25.0/bin/windows/amd64/kubectl.exe"
   },
   {
     "id": "mobaxterm",
     "application": "mobaxterm",
     "version": "22.1",
+    "source": "https://mobaxterm.mobatek.net/download-home-edition.html",
     "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v22.1.zip"
   },
   {
     "id": "mongo-database-tools",
     "application": "mongo-database-tools",
-    "version": "100.6.0",
-    "download_url": "https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.6.0.zip"
+    "version": "100.6.1",
+    "source": "https://www.mongodb.com/try/download/database-tools",
+    "download_url": "https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.6.1.zip"
   },
   {
     "id": "mongosh",
     "application": "mongosh",
     "version": "1.6.0",
+    "source": "https://www.mongodb.com/try/download/shell",
     "download_url": "https://downloads.mongodb.com/compass/mongosh-1.6.0-win32-x64.zip"
   },
   {
     "id": "openssl",
     "application": "openssl",
-    "version": "3.0.5",
-    "download_url": "https://slproweb.com/download/Win64OpenSSL-3_0_5.exe"
+    "version": "3.0.7",
+    "source": "https://slproweb.com/products/Win32OpenSSL.html",
+    "download_url": "https://slproweb.com/download/Win64OpenSSL-3_0_7.exe"
   },
   {
     "id": "studio3t",
     "application": "studio3t",
-    "version": "2022.8.3",
-    "download_url": "https://download.studio3t.com/studio-3t/windows/2022.8.3/studio-3t-x64.zip"
+    "version": "2022.9.0",
+    "source": "https://studio3t.com/download/",
+    "download_url": "https://download.studio3t.com/studio-3t/windows/2022.9.0/studio-3t-x64.zip"
   }
 ]

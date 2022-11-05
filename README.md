@@ -60,7 +60,7 @@ Powershell script to download models based off `vscode-models.txt` which is extr
 On PowerShell, run
 
 ```powershell
-.\\vscode-models-downloads.ps1 -username joseph -version 1.2.27
+.\\vscode-models-downloads.ps1 -username joseph -version 1.2.29
 ```
 
 By default, the installers will be downloaded to `_vscode_models` directory

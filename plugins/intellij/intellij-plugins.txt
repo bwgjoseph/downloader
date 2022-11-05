@@ -1,5 +1,6 @@
 Batch%20Scripts%20Support
 cn.jxzhang.plugin.json-formatter
+com.dmitryzhelnin.intellij.plugin.gitextensions
 com.dubreuia
 com.github.bric3.excalidraw
 com.haulmont.jpab
