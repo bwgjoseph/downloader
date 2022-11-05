@@ -51,6 +51,8 @@ cd plugins/vscode
 
 By default, the plugins will be downloaded to `_vscode_plugins` directory
 
+Once downloads is complete, it will generate a `_install.bat` file in `_vscode_plugins` directory. Double click to install/upgrade all downloaded extensions automatically
+
 ## VSCode Model Downloads
 
 Powershell script to download models based off `vscode-models.txt` which is extracted (manually).
@@ -101,13 +103,17 @@ By default, the installers will be downloaded to `_github_applications` director
 
 **Note** that it does not support filtering to specific "application" or "version" to download
 
-## Todo
+## Features
 
 - [x] Extract application list automatically from `winget list`
-- [ ] Compare last downloaded version with current run to download only updated applications
-- [ ] Compress downloaded files into archive
 - [x] Support downloading files not from `winget`
 - [x] Support downloading VSCode extension
-- [x] Support downloading IntelliJ extension
+  - [x] Generates `_install.bat` script for one-click install
 - [x] Support downloading VSCode intellicode models
-- [x] Support downloading using github-cli
+- [x] Support downloading IntelliJ extension
+- [x] Support downloading via github-cli
+
+## Todo
+
+- [ ] Compare last downloaded version with current run to download only updated applications
+- [ ] Compress downloaded files into archive

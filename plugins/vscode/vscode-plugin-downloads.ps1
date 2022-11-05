@@ -11,6 +11,9 @@ $header_accept="Accept: application/json;api-version=7.1-preview.1"
 $header_content_type="Content-Type: application/json"
 $url="https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery"
 
+# Stores commands to install extension
+$batchInstallArray=@()
+
 # # For each plugin
 Get-Content .\vscode-plugins.txt | ForEach-Object {
     $plugin=$_
@@ -45,5 +48,13 @@ Get-Content .\vscode-plugins.txt | ForEach-Object {
     # --silent: do not show progress
     curl -L $extension_url -o "$default_download_dir/$plugin-$extension_version.vsix" --create-dirs --silent
 
-    Write-Host "Completed"
+    $batchInstallArray += "call code --install-extension $plugin-$extension_version.vsix"
+
+    Write-Host "Downloads Completed"
 }
+
+Write-Host "Writing install script to $default_download_dir"
+
+$batchInstallArray | Out-File -Append $default_download_dir/_install.bat
+
+Write-Host "Write to file Completed"
