@@ -21,6 +21,7 @@ redhat.vscode-yaml
 shd101wyy.markdown-preview-enhanced
 shengchen.vscode-checkstyle
 SonarSource.sonarlint-vscode
+tsandall.opa
 usernamehw.errorlens
 VisualStudioExptTeam.vscodeintellicode
 vscjava.vscode-gradle
