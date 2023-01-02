@@ -47,6 +47,6 @@ Get-Content .\winget-applications.txt | ForEach-Object {
 }
 
 # convert the final result to json file
-$toJsonArray | ConvertTo-Json | Set-Content winget-last_processed.json
+# $toJsonArray | ConvertTo-Json | Set-Content winget-last_processed.json
 
 Write-Host "Completed"
