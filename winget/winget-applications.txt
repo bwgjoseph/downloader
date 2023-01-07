@@ -7,10 +7,12 @@ HTTPToolKit.HTTPToolKit
 KDE.KDiff3
 Kubernetes.minikube
 Microsoft.DotNet.DesktopRuntime.6
+Microsoft.DotNet.DesktopRuntime.7
 Microsoft.Edge
 Microsoft.EdgeWebView2Runtime
 Microsoft.PowerShell
 Microsoft.PowerToys
+Microsoft.VCRedist.2015+.x64
 Microsoft.VisualStudioCode
 Microsoft.WindowsTerminal
 Microsoft.WindowsTerminal.Preview

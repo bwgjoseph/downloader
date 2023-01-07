@@ -61,5 +61,12 @@
     "version": "2022.10.0",
     "source": "https://studio3t.com/download/",
     "download_url": "https://download.studio3t.com/studio-3t/windows/2022.10.0/studio-3t-x64.zip"
+  },
+  {
+    "id": "jmeter",
+    "application": "jmeter",
+    "version": "5.5",
+    "source": "https://jmeter.apache.org/download_jmeter.cgi",
+    "download_url": "https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.5.zip"
   }
 ]
