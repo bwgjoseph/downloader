@@ -62,5 +62,9 @@
   {
     "repo": "https://github.com/open-policy-agent/opa/",
     "pattern": "*windows*.exe"
+  },
+  {
+    "repo": "https://github.com/MuhammedKalkan/OpenLens/",
+    "pattern": "*.exe"
   }
 ]

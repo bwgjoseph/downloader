@@ -68,5 +68,12 @@
     "version": "5.5",
     "source": "https://jmeter.apache.org/download_jmeter.cgi",
     "download_url": "https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.5.zip"
+  },
+  {
+    "id": "gitlab-cli",
+    "application": "gitlab-cli",
+    "version": "1.25.3",
+    "source": "https://gitlab.com/gitlab-org/cli/-/releases",
+    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.25.3/downloads/glab_1.25.3_Windows_x86_64.zip"
   }
 ]
