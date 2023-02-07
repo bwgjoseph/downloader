@@ -2,6 +2,7 @@
 Docker.DockerDesktop
 Git.Git
 GitExtensionsTeam.GitExtensions
+GitHub.GitHubDesktop
 Google.Chrome
 HTTPToolKit.HTTPToolKit
 KDE.KDiff3
@@ -18,11 +19,12 @@ Microsoft.WindowsTerminal
 Microsoft.WindowsTerminal.Preview
 MKLabs.StarUML
 MongoDB.Compass.Full
+MongoDB.DatabaseTools
 MongoDB.Server
+MongoDB.Shell
 Mozilla.Firefox
 NickeManarin.ScreenToGif
 Notepad++.Notepad++
-Obsidian.Obsidian
 OpenJS.NodeJS.LTS
 Oracle.VirtualBox
 PatrikLaszlo.P3XRedisUI

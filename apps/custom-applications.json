@@ -2,23 +2,23 @@
   {
     "id": "FreeFileSync",
     "application": "FreeFileSync",
-    "version": "11.29",
+    "version": "12.0",
     "source": "https://freefilesync.org/download.php",
-    "download_url": "https://freefilesync.org/download/FreeFileSync_11.29_Windows_Setup.exe"
+    "download_url": "https://freefilesync.org/download/FreeFileSync_12.0_Windows_Setup.exe"
   },
   {
     "id": "helm",
     "application": "helm",
-    "version": "3.10.3",
+    "version": "3.11.0",
     "source": "https://github.com/helm/helm/releases",
-    "download_url": "https://get.helm.sh/helm-v3.10.3-windows-amd64.zip"
+    "download_url": "https://get.helm.sh/helm-v3.11.0-windows-amd64.zip"
   },
   {
     "id": "Idea.IntelliJ.Ultimate",
     "application": "Idea.IntelliJ.Ultimate",
-    "version": "2022.3.1",
+    "version": "2022.3.2",
     "source": "https://www.jetbrains.com/idea/download/#section=windows",
-    "download_url": "https://download.jetbrains.com/idea/ideaIU-2022.3.1.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIU-2022.3.2.win.zip"
   },
   {
     "id": "kubectl",
@@ -30,9 +30,9 @@
   {
     "id": "mobaxterm",
     "application": "mobaxterm",
-    "version": "22.3",
+    "version": "23.0",
     "source": "https://mobaxterm.mobatek.net/download-home-edition.html",
-    "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v22.3.zip"
+    "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v23.0.zip"
   },
   {
     "id": "mongo-database-tools",
@@ -44,9 +44,9 @@
   {
     "id": "mongosh",
     "application": "mongosh",
-    "version": "1.6.1",
+    "version": "1.6.2",
     "source": "https://www.mongodb.com/try/download/shell",
-    "download_url": "https://downloads.mongodb.com/compass/mongosh-1.6.1-win32-x64.zip"
+    "download_url": "https://downloads.mongodb.com/compass/mongosh-1.6.2-win32-x64.zip"
   },
   {
     "id": "openssl",
