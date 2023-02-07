@@ -40,15 +40,25 @@ Get-Content .\vscode-plugins.txt | ForEach-Object {
 
     # parse the result
     # $extension_name=$result | jq -r '.results[0].extensions[0].extensionName'
-    $extension_url=$result | jq -r '.results[0].extensions[0].versions[0].files[0].source'
+
     $extension_version=$result | jq -r '.results[0].extensions[0].versions[0].version'
+
+    # To support where plugin has installer for various platform
+    # Currently, known one is only redhat.java
+    if ($plugin -match 'redhat.java') {
+        $extension_url=$result | jq -r '.results[0].extensions[0].versions | .[].targetPlatform = "win32-x64" | .[0].files[0].source'
+        $filename = "$plugin-$extension_version@win32-x64"
+    } else {
+        $extension_url=$result | jq -r '.results[0].extensions[0].versions[0].files[0].source'
+        $filename = "$plugin-$extension_version"
+    }
 
     # -L: follow redirect
     # --create-dirs: if not exist
     # --silent: do not show progress
-    curl -L $extension_url -o "$default_download_dir/$plugin-$extension_version.vsix" --create-dirs --silent
+    curl -L $extension_url -o "$default_download_dir/$filename.vsix" --create-dirs --silent
 
-    $batchInstallArray += "call code --install-extension $plugin-$extension_version.vsix"
+    $batchInstallArray += "call code --install-extension $filename.vsix"
 
     Write-Host "Downloads Completed"
 }
