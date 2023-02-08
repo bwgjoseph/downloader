@@ -66,5 +66,13 @@
   {
     "repo": "https://github.com/MuhammedKalkan/OpenLens/",
     "pattern": "*.exe"
+  },
+  {
+    "repo": "https://github.com/JanDeDobbeleer/oh-my-posh/",
+    "pattern": "posh-windows-amd64.exe"
+  },
+  {
+    "repo": "https://github.com/JanDeDobbeleer/oh-my-posh/",
+    "pattern": "themes.zip"
   }
 ]

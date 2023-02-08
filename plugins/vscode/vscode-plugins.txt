@@ -10,6 +10,7 @@ GitLab.gitlab-workflow
 mongodb.mongodb-vscode
 ms-azuretools.vscode-docker
 ms-kubernetes-tools.vscode-kubernetes-tools
+ms-playwright.playwright
 ms-python.python
 ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
@@ -17,7 +18,6 @@ ms-vscode-remote.remote-wsl
 ms-vscode-remote.vscode-remote-extensionpack
 nrwl.angular-console
 pflannery.vscode-versionlens
-vmware.vscode-boot-dev-pack
 pmiossec.vscode-gitextensions
 redhat.java
 redhat.vscode-xml
@@ -28,6 +28,7 @@ SonarSource.sonarlint-vscode
 tsandall.opa
 usernamehw.errorlens
 VisualStudioExptTeam.vscodeintellicode
+vmware.vscode-boot-dev-pack
 vmware.vscode-spring-boot
 vscjava.vscode-gradle
 vscjava.vscode-java-debug
