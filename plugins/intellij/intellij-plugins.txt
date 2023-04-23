@@ -32,3 +32,4 @@ PMDPlugin
 SequenceDiagram
 tanvd.grazi
 zielu.gittoolbox
+ru.adelf.idea.dotenv

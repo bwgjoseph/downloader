@@ -74,5 +74,9 @@
   {
     "repo": "https://github.com/JanDeDobbeleer/oh-my-posh/",
     "pattern": "themes.zip"
+  },
+  {
+    "repo": "https://github.com/containers/podman-desktop/",
+    "pattern": "podman-desktop-airgap-*.exe"
   }
 ]
