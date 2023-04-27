@@ -82,5 +82,12 @@
     "version": "3.9.1",
     "source": "https://maven.apache.org/download.cgi",
     "download_url": "https://dlcdn.apache.org/maven/maven-3/3.9.1/binaries/apache-maven-3.9.1-bin.zip"
+  },
+  {
+    "id": "http-client-cli",
+    "application": "http-client-cli",
+    "version": "0.22",
+    "source": "https://www.jetbrains.com/help/idea/http-client-cli.html",
+    "download_url": "https://download.jetbrains.com/resources/intellij/http-client/0.22/intellij-http-client.zip"
   }
 ]

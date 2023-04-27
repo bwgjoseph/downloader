@@ -78,5 +78,9 @@
   {
     "repo": "https://github.com/containers/podman-desktop/",
     "pattern": "podman-desktop-airgap-*.exe"
+  },
+  {
+    "repo": "https://github.com/mRemoteNG/mRemoteNG/",
+    "pattern": "mRemoteNG*.msi"
   }
 ]

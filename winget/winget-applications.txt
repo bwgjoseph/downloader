@@ -5,6 +5,7 @@ GitExtensionsTeam.GitExtensions
 GitHub.GitHubDesktop
 Google.Chrome
 HTTPToolKit.HTTPToolKit
+k6.k6
 KDE.KDiff3
 Kubernetes.minikube
 Microsoft.DotNet.DesktopRuntime.6

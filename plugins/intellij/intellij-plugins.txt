@@ -7,6 +7,7 @@ com.haulmont.jpab
 com.intellij.kubernetes
 com.intellij.plugins.vscodekeymap
 com.intellij.spring.batch
+com.jetbrains.restClient
 com.jetbrains.sh
 com.mallowigi
 de.docs_as_co.intellij.plugin.diagramsnet
@@ -29,7 +30,7 @@ org.sonarlint.idea
 palantir-java-format
 PlantUML%20integration
 PMDPlugin
+ru.adelf.idea.dotenv
 SequenceDiagram
 tanvd.grazi
 zielu.gittoolbox
-ru.adelf.idea.dotenv
