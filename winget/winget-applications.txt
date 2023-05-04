@@ -31,7 +31,7 @@ Oracle.VirtualBox
 PatrikLaszlo.P3XRedisUI
 Postman.Postman
 PuTTY.PuTTY
-Python.Python.3.11.1
+Python.Python.3.11
 suse.RancherDesktop
 VMware.WorkstationPlayer
 voidtools.Everything

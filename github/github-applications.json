@@ -49,7 +49,7 @@
   },
   {
     "repo": "https://github.com/veler/DevToys/",
-    "pattern": "*DevToys*.msixbundle"
+    "pattern": "*DevToys*.Msixbundle"
   },
   {
     "repo": "https://github.com/vmware-tanzu/octant/",

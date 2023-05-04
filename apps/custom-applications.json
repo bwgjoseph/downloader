@@ -16,9 +16,9 @@
   {
     "id": "Idea.IntelliJ.Ultimate",
     "application": "Idea.IntelliJ.Ultimate",
-    "version": "2023.1",
+    "version": "2023.1.1",
     "source": "https://www.jetbrains.com/idea/download/#section=windows",
-    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.1.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.1.1.win.zip"
   },
   {
     "id": "kubectl",
@@ -58,9 +58,9 @@
   {
     "id": "studio3t",
     "application": "studio3t",
-    "version": "2023.3.0",
+    "version": "2023.4.0",
     "source": "https://studio3t.com/download/",
-    "download_url": "https://download.studio3t.com/studio-3t/windows/2023.3.0/studio-3t-x64.zip"
+    "download_url": "https://download.studio3t.com/studio-3t/windows/2023.4.0/studio-3t-x64.zip"
   },
   {
     "id": "jmeter",
