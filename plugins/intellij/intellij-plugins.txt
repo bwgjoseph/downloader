@@ -30,6 +30,7 @@ org.sonarlint.idea
 palantir-java-format
 PlantUML%20integration
 PMDPlugin
+ris58h.lacopom
 ru.adelf.idea.dotenv
 SequenceDiagram
 tanvd.grazi

@@ -82,5 +82,9 @@
   {
     "repo": "https://github.com/mRemoteNG/mRemoteNG/",
     "pattern": "mRemoteNG*.msi"
+  },
+  {
+    "repo": "https://github.com/krud-dev/ostara/",
+    "pattern": "Ostara-Setup-*.exe"
   }
 ]
