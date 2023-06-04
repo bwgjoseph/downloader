@@ -13,7 +13,11 @@ Get-Content custom-applications.json | ConvertFrom-Json | ForEach-Object {
     # see https://daniel.haxx.se/blog/2020/09/10/store-the-curl-output-over-there
     # --create-dirs: if not exist
     # --silent: do not show progress
-    curl -L $_.download_url -O -J --output-dir $default_download_dir --create-dirs --silent
+    if ($_.filename) {
+        curl -L $_.download_url -o $_.filename --output-dir $default_download_dir --create-dirs --silent
+    } else {
+        curl -L $_.download_url -O -J --output-dir $default_download_dir --create-dirs --silent
+    }
 }
 
 Write-Host "Completed"

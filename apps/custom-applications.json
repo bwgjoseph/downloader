@@ -53,7 +53,8 @@
     "application": "studio3t",
     "version": "2023.4.1",
     "source": "https://studio3t.com/download/",
-    "download_url": "https://download.studio3t.com/studio-3t/windows/2023.4.1/studio-3t-x64.zip"
+    "download_url": "https://download.studio3t.com/studio-3t/windows/2023.4.1/studio-3t-x64.zip",
+    "filename": "studio-3t-x64-2023.4.1.zip"
   },
   {
     "id": "jmeter",
