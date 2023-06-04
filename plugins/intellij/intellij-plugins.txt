@@ -1,3 +1,4 @@
+appland.appmap
 Batch%20Scripts%20Support
 cn.jxzhang.plugin.json-formatter
 com.dmitryzhelnin.intellij.plugin.gitextensions

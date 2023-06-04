@@ -2,30 +2,30 @@
   {
     "id": "FreeFileSync",
     "application": "FreeFileSync",
-    "version": "12.2",
+    "version": "12.3",
     "source": "https://freefilesync.org/download.php",
-    "download_url": "https://freefilesync.org/download/FreeFileSync_12.2_Windows_Setup.exe"
+    "download_url": "https://freefilesync.org/download/FreeFileSync_12.3_Windows_Setup.exe"
   },
   {
     "id": "helm",
     "application": "helm",
-    "version": "3.11.3",
+    "version": "3.12.0",
     "source": "https://github.com/helm/helm/releases",
-    "download_url": "https://get.helm.sh/helm-v3.11.3-windows-amd64.zip"
+    "download_url": "https://get.helm.sh/helm-v3.12.0-windows-amd64.zip"
   },
   {
     "id": "Idea.IntelliJ.Ultimate",
     "application": "Idea.IntelliJ.Ultimate",
-    "version": "2023.1.1",
+    "version": "2023.1.2",
     "source": "https://www.jetbrains.com/idea/download/#section=windows",
-    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.1.1.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.1.2.win.zip"
   },
   {
     "id": "kubectl",
     "application": "kubectl",
-    "version": "1.27.0",
+    "version": "1.27.2",
     "source": "https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/",
-    "download_url": "https://dl.k8s.io/release/v1.27.0/bin/windows/amd64/kubectl.exe"
+    "download_url": "https://dl.k8s.io/release/v1.27.2/bin/windows/amd64/kubectl.exe"
   },
   {
     "id": "mobaxterm",
@@ -33,20 +33,6 @@
     "version": "23.1",
     "source": "https://mobaxterm.mobatek.net/download-home-edition.html",
     "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v23.1.zip"
-  },
-  {
-    "id": "mongo-database-tools",
-    "application": "mongo-database-tools",
-    "version": "100.7.0",
-    "source": "https://www.mongodb.com/try/download/database-tools",
-    "download_url": "https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.7.0.zip"
-  },
-  {
-    "id": "mongosh",
-    "application": "mongosh",
-    "version": "1.8.0",
-    "source": "https://www.mongodb.com/try/download/shell",
-    "download_url": "https://downloads.mongodb.com/compass/mongosh-1.8.0-win32-x64.zip"
   },
   {
     "id": "openssl",
@@ -58,9 +44,9 @@
   {
     "id": "studio3t",
     "application": "studio3t",
-    "version": "2023.4.0",
+    "version": "2023.4.1",
     "source": "https://studio3t.com/download/",
-    "download_url": "https://download.studio3t.com/studio-3t/windows/2023.4.0/studio-3t-x64.zip"
+    "download_url": "https://download.studio3t.com/studio-3t/windows/2023.4.1/studio-3t-x64.zip"
   },
   {
     "id": "jmeter",
@@ -72,22 +58,29 @@
   {
     "id": "gitlab-cli",
     "application": "gitlab-cli",
-    "version": "1.28.1",
+    "version": "1.30.0",
     "source": "https://gitlab.com/gitlab-org/cli/-/releases",
-    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.28.1/downloads/glab_1.28.1_Windows_x86_64.zip"
+    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.30.0/downloads/glab_1.30.0_Windows_x86_64.zip"
   },
   {
     "id": "maven",
     "application": "maven",
-    "version": "3.9.1",
+    "version": "3.9.2",
     "source": "https://maven.apache.org/download.cgi",
-    "download_url": "https://dlcdn.apache.org/maven/maven-3/3.9.1/binaries/apache-maven-3.9.1-bin.zip"
+    "download_url": "https://dlcdn.apache.org/maven/maven-3/3.9.2/binaries/apache-maven-3.9.2-bin.zip"
+  },
+  {
+    "id": "maven-wrapper",
+    "application": "maven-wrapper",
+    "version": "3.2.0",
+    "source": "https://maven.apache.org/wrapper/download.cgi",
+    "download_url": "https://repo.maven.apache.org/maven2/org/apache/maven/wrapper/maven-wrapper/3.2.0/maven-wrapper-3.2.0.jar"
   },
   {
     "id": "http-client-cli",
     "application": "http-client-cli",
-    "version": "0.22",
+    "version": "2023.1",
     "source": "https://www.jetbrains.com/help/idea/http-client-cli.html",
-    "download_url": "https://download.jetbrains.com/resources/intellij/http-client/0.22/intellij-http-client.zip"
+    "download_url": "https://jb.gg/ijhttp/latest"
   }
 ]

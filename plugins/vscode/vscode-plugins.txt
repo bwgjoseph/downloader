@@ -1,4 +1,5 @@
 antfu.file-nesting
+appland.appmap
 christian-kohler.npm-intellisense
 dbaeumer.vscode-eslint
 eamodio.gitlens
