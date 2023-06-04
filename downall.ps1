@@ -9,9 +9,10 @@ cd intellij
 # .\intellij-plugin-downloads.ps1 -version 2022.2 -build 222.3345.118
 # .\intellij-plugin-downloads.ps1 -version 2022.2.3 -build 222.3345.118
 # .\intellij-plugin-downloads.ps1 -version 2022.3.1 -build 223.8214.52
-.\intellij-plugin-downloads.ps1 -version 2022.3.2 -build 223.8617.56
+# .\intellij-plugin-downloads.ps1 -version 2022.3.2 -build 223.8617.56
 .\intellij-plugin-downloads.ps1 -version 2023.1 -build 231.8109.175
 .\intellij-plugin-downloads.ps1 -version 2023.1.1 -build 231.8770.65
+.\intellij-plugin-downloads.ps1 -version 2023.1.2 -build 231.9011.34
 cd ..
 cd vscode
 .\vscode-plugin-downloads.ps1

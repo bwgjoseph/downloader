@@ -21,6 +21,13 @@
     "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.1.2.win.zip"
   },
   {
+    "id": "Idea.IntelliJ.Community",
+    "application": "Idea.IntelliJ.Community",
+    "version": "2023.1.2",
+    "source": "https://www.jetbrains.com/idea/download/#section=windows",
+    "download_url": "https://download.jetbrains.com/idea/ideaIC-2023.1.2.win.zip"
+  },
+  {
     "id": "kubectl",
     "application": "kubectl",
     "version": "1.27.2",
