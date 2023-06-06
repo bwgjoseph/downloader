@@ -1,3 +1,4 @@
+aaron-bond.better-comments
 antfu.file-nesting
 appland.appmap
 christian-kohler.npm-intellisense
@@ -39,3 +40,4 @@ vscjava.vscode-java-test
 vscjava.vscode-maven
 vscjava.vscode-spring-boot-dashboard
 vscjava.vscode-spring-initializr
+ZixuanChen.vitest-explorer-0.2.41.vsix
