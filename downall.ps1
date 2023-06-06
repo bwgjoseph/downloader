@@ -4,6 +4,9 @@ cd ..
 cd github
 .\github-downloads.ps1
 cd ..
+cd playwright
+.\playwright-downloads.ps1
+cd ..
 cd plugins
 cd intellij
 # .\intellij-plugin-downloads.ps1 -version 2022.2 -build 222.3345.118

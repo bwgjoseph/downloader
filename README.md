@@ -103,6 +103,21 @@ By default, the installers will be downloaded to `_github_applications` director
 
 **Note** that it does not support filtering to specific "application" or "version" to download
 
+## Playwright Downloads
+
+Powershell script to download playwright binaries based off `browsers.json` which is downloaded from [github](https://raw.githubusercontent.com/microsoft/playwright/main/packages/playwright-core/browsers.json). This allows us to grab the latest version right before download starts.
+
+### Run
+
+On PowerShell, run
+
+```powershell
+cd playwright
+.\playwright-downloads.ps1
+```
+
+By default, the installers will be downloaded to `_playwright` directory
+
 ## Features
 
 - [x] Extract application list automatically from `winget list`
