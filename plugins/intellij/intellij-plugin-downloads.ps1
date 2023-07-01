@@ -35,6 +35,9 @@ $build="231.9011.34"
 
 $default_download_dir="./_intellij_plugins_$version"
 
+# Stores commands to install extension
+$batchInstallArray=@()
+
 Write-Host $default_download_dir
 
 # For each plugin
@@ -52,5 +55,13 @@ Get-Content .\intellij-plugins.txt | ForEach-Object {
     # --silent: do not show progress
     curl -L $url -O -J --output-dir $default_download_dir --create-dirs --silent
 
+    $batchInstallArray += "idea64.exe installPlugins $plugin"
+
     Write-Host "Completed"
 }
+
+Write-Host "Writing install script to $default_download_dir"
+
+$batchInstallArray | Out-File -Append $default_download_dir/_install.bat
+
+Write-Host "Write to file Completed"
