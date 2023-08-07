@@ -16,6 +16,8 @@ cd intellij
 .\intellij-plugin-downloads.ps1 -version 2023.1 -build 231.8109.175
 .\intellij-plugin-downloads.ps1 -version 2023.1.1 -build 231.8770.65
 .\intellij-plugin-downloads.ps1 -version 2023.1.2 -build 231.9011.34
+.\intellij-plugin-downloads.ps1 -version 2023.1.3 -build 231.9161.38
+.\intellij-plugin-downloads.ps1 -version 2023.2 -build 232.8660.185
 cd ..
 cd vscode
 .\vscode-plugin-downloads.ps1

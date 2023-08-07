@@ -57,7 +57,7 @@
   },
   {
     "repo": "https://github.com/wagoodman/dive/",
-    "pattern": "*windows*.zip"
+    "pattern": "*windows*amd64.zip"
   },
   {
     "repo": "https://github.com/open-policy-agent/opa/",

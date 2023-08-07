@@ -2,44 +2,44 @@
   {
     "id": "FreeFileSync",
     "application": "FreeFileSync",
-    "version": "12.3",
+    "version": "12.5",
     "source": "https://freefilesync.org/download.php",
-    "download_url": "https://freefilesync.org/download/FreeFileSync_12.3_Windows_Setup.exe"
+    "download_url": "https://freefilesync.org/download/FreeFileSync_12.5_Windows_Setup.exe"
   },
   {
     "id": "helm",
     "application": "helm",
-    "version": "3.12.0",
+    "version": "3.12.2",
     "source": "https://github.com/helm/helm/releases",
-    "download_url": "https://get.helm.sh/helm-v3.12.0-windows-amd64.zip"
+    "download_url": "https://get.helm.sh/helm-v3.12.2-windows-amd64.zip"
   },
   {
     "id": "Idea.IntelliJ.Ultimate",
     "application": "Idea.IntelliJ.Ultimate",
-    "version": "2023.1.2",
+    "version": "2023.2",
     "source": "https://www.jetbrains.com/idea/download/#section=windows",
-    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.1.2.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.2.win.zip"
   },
   {
     "id": "Idea.IntelliJ.Community",
     "application": "Idea.IntelliJ.Community",
-    "version": "2023.1.2",
+    "version": "2023.2",
     "source": "https://www.jetbrains.com/idea/download/#section=windows",
-    "download_url": "https://download.jetbrains.com/idea/ideaIC-2023.1.2.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIC-2023.2.win.zip"
   },
   {
     "id": "kubectl",
     "application": "kubectl",
-    "version": "1.27.2",
+    "version": "1.27.4",
     "source": "https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/",
-    "download_url": "https://dl.k8s.io/release/v1.27.2/bin/windows/amd64/kubectl.exe"
+    "download_url": "https://dl.k8s.io/release/v1.27.4/bin/windows/amd64/kubectl.exe"
   },
   {
     "id": "mobaxterm",
     "application": "mobaxterm",
-    "version": "23.1",
+    "version": "23.2",
     "source": "https://mobaxterm.mobatek.net/download-home-edition.html",
-    "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v23.1.zip"
+    "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v23.2.zip"
   },
   {
     "id": "openssl",
@@ -51,31 +51,31 @@
   {
     "id": "studio3t",
     "application": "studio3t",
-    "version": "2023.4.1",
+    "version": "2023.5.0",
     "source": "https://studio3t.com/download/",
-    "download_url": "https://download.studio3t.com/studio-3t/windows/2023.4.1/studio-3t-x64.zip",
-    "filename": "studio-3t-x64-2023.4.1.zip"
+    "download_url": "https://download.studio3t.com/studio-3t/windows/2023.5.0/studio-3t-x64.zip",
+    "filename": "studio-3t-x64-2023.5.0.zip"
   },
   {
     "id": "jmeter",
     "application": "jmeter",
-    "version": "5.5",
+    "version": "5.6.2",
     "source": "https://jmeter.apache.org/download_jmeter.cgi",
-    "download_url": "https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.5.zip"
+    "download_url": "https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.6.2.zip"
   },
   {
     "id": "gitlab-cli",
     "application": "gitlab-cli",
-    "version": "1.30.0",
+    "version": "1.31.0",
     "source": "https://gitlab.com/gitlab-org/cli/-/releases",
-    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.30.0/downloads/glab_1.30.0_Windows_x86_64.zip"
+    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.31.0/downloads/glab_1.31.0_Windows_x86_64.zip"
   },
   {
     "id": "maven",
     "application": "maven",
-    "version": "3.9.2",
+    "version": "3.9.4",
     "source": "https://maven.apache.org/download.cgi",
-    "download_url": "https://dlcdn.apache.org/maven/maven-3/3.9.2/binaries/apache-maven-3.9.2-bin.zip"
+    "download_url": "https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.zip"
   },
   {
     "id": "maven-wrapper",

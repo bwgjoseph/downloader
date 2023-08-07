@@ -77,10 +77,10 @@ On PowerShell, run
 
 ```powershell
 cd plugins/intellij
-.\intellij-plugin-downloads.ps1 -version 2023.1
+.\intellij-plugin-downloads.ps1 -version 2023.2
 ```
 
-By default, the installers will be downloaded to `_intellij_plugins_2023.1` directory. If `version` is not specific, the default will be `2023.1`
+By default, the installers will be downloaded to `_intellij_plugins_2023.2` directory. If `version` is not specific, the default will be `2023.2`
 
 ## Github Applications Downloads
 
