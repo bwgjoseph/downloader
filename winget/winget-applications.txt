@@ -29,7 +29,6 @@ Notepad++.Notepad++
 OpenJS.NodeJS.LTS
 Oracle.VirtualBox
 PatrikLaszlo.P3XRedisUI
-Postman.Postman
 PuTTY.PuTTY
 Python.Python.3.11
 suse.RancherDesktop

@@ -9,30 +9,30 @@
   {
     "id": "helm",
     "application": "helm",
-    "version": "3.12.2",
+    "version": "3.12.3",
     "source": "https://github.com/helm/helm/releases",
-    "download_url": "https://get.helm.sh/helm-v3.12.2-windows-amd64.zip"
+    "download_url": "https://get.helm.sh/helm-v3.12.3-windows-amd64.zip"
   },
   {
     "id": "Idea.IntelliJ.Ultimate",
     "application": "Idea.IntelliJ.Ultimate",
-    "version": "2023.2",
+    "version": "2023.2.1",
     "source": "https://www.jetbrains.com/idea/download/#section=windows",
-    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.2.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.2.1.win.zip"
   },
   {
     "id": "Idea.IntelliJ.Community",
     "application": "Idea.IntelliJ.Community",
-    "version": "2023.2",
+    "version": "2023.2.1",
     "source": "https://www.jetbrains.com/idea/download/#section=windows",
-    "download_url": "https://download.jetbrains.com/idea/ideaIC-2023.2.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIC-2023.2.1.win.zip"
   },
   {
     "id": "kubectl",
     "application": "kubectl",
-    "version": "1.27.4",
+    "version": "1.28.1",
     "source": "https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/",
-    "download_url": "https://dl.k8s.io/release/v1.27.4/bin/windows/amd64/kubectl.exe"
+    "download_url": "https://dl.k8s.io/release/v1.28.1/bin/windows/amd64/kubectl.exe"
   },
   {
     "id": "mobaxterm",
@@ -51,10 +51,10 @@
   {
     "id": "studio3t",
     "application": "studio3t",
-    "version": "2023.5.0",
+    "version": "2023.6.0",
     "source": "https://studio3t.com/download/",
-    "download_url": "https://download.studio3t.com/studio-3t/windows/2023.5.0/studio-3t-x64.zip",
-    "filename": "studio-3t-x64-2023.5.0.zip"
+    "download_url": "https://download.studio3t.com/studio-3t/windows/2023.6.0/studio-3t-x64.zip",
+    "filename": "studio-3t-x64-2023.6.0.zip"
   },
   {
     "id": "jmeter",
@@ -87,7 +87,7 @@
   {
     "id": "http-client-cli",
     "application": "http-client-cli",
-    "version": "2023.1",
+    "version": "2023.2",
     "source": "https://www.jetbrains.com/help/idea/http-client-cli.html",
     "download_url": "https://jb.gg/ijhttp/latest"
   }
