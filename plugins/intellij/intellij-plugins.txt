@@ -7,6 +7,7 @@ com.github.bric3.excalidraw
 com.github.lppedd.idea-conventional-commit
 com.gitlab.plugin
 com.haulmont.jpab
+com.intellij.bigdatatools.core
 com.intellij.bigdatatools.kafka
 com.intellij.bigdatatools.rfs
 com.intellij.kubernetes
