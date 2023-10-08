@@ -29,6 +29,7 @@ shengchen.vscode-checkstyle
 SonarSource.sonarlint-vscode
 tsandall.opa
 usernamehw.errorlens
+virtuslab.graph-buddy
 VisualStudioExptTeam.vscodeintellicode
 vmware.vscode-boot-dev-pack
 vmware.vscode-spring-boot

@@ -11,12 +11,14 @@ com.intellij.bigdatatools.core
 com.intellij.bigdatatools.kafka
 com.intellij.bigdatatools.rfs
 com.intellij.kubernetes
+com.intellij.mermaid
 com.intellij.plugins.vscodekeymap
 com.intellij.spring.batch
 com.jetbrains.restClient
 com.jetbrains.sh
 com.mallowigi
 com.robohorse.robopojogenerator
+com.virtuslab.graphbuddy
 de.docs_as_co.intellij.plugin.diagramsnet
 de.platon42.cajon
 google-java-format
@@ -27,6 +29,7 @@ me.xdrop.night-owl
 mobi.hsz.idea.gitignore
 mockitools
 org.apache.camel
+org.intellij.plugins.markdown
 org.intellij.scala
 org.jetbrains.jumpToLine
 org.jetbrains.plugins.spotbugs
