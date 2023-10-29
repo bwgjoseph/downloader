@@ -19,6 +19,7 @@ ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-wsl
 ms-vscode-remote.vscode-remote-extensionpack
 nrwl.angular-console
+Oracle.oracle-java
 pflannery.vscode-versionlens
 pmiossec.vscode-gitextensions
 redhat.java

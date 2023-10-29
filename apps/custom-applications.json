@@ -73,9 +73,9 @@
   {
     "id": "maven",
     "application": "maven",
-    "version": "3.9.4",
+    "version": "3.9.5",
     "source": "https://maven.apache.org/download.cgi",
-    "download_url": "https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.zip"
+    "download_url": "https://dlcdn.apache.org/maven/maven-3/3.9.5/binaries/apache-maven-3.9.5-bin.zip"
   },
   {
     "id": "maven-wrapper",

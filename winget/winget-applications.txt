@@ -32,5 +32,7 @@ PatrikLaszlo.P3XRedisUI
 PuTTY.PuTTY
 Python.Python.3.11
 suse.RancherDesktop
+Task.Task
 VMware.WorkstationPlayer
 voidtools.Everything
+XP8K1GHCB0F1R2

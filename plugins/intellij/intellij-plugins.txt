@@ -45,5 +45,6 @@ PMDPlugin
 ris58h.lacopom
 ru.adelf.idea.dotenv
 SequenceDiagram
+String Manipulation
 tanvd.grazi
 zielu.gittoolbox
