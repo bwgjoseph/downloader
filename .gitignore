@@ -1,6 +1,1 @@
-/apps/_applications
-/github/_github_applications/
-/plugins/vscode/_vscode_plugins/
-/plugins/vscode/_vscode_models/
-/plugins/intellij/_intellij_plugins_*
-/winget/_winget_applications/
+/**/_*
