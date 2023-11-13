@@ -8,6 +8,10 @@
     "pattern": "*jdk_x64_windows*.zip"
   },
   {
+    "repo": "https://github.com/adoptium/temurin21-binaries/",
+    "pattern": "*jdk_x64_windows*.zip"
+  },
+  {
     "repo": "https://github.com/Eugeny/tabby/",
     "pattern": "*portable-x64*.zip"
   },
