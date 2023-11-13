@@ -9,23 +9,23 @@
   {
     "id": "helm",
     "application": "helm",
-    "version": "3.13.1",
+    "version": "3.13.2",
     "source": "https://github.com/helm/helm/releases",
-    "download_url": "https://get.helm.sh/helm-v3.13.1-windows-amd64.zip"
+    "download_url": "https://get.helm.sh/helm-v3.13.2-windows-amd64.zip"
   },
   {
     "id": "Idea.IntelliJ.Ultimate",
     "application": "Idea.IntelliJ.Ultimate",
-    "version": "2023.2.4",
+    "version": "2023.2.5",
     "source": "https://www.jetbrains.com/idea/download/#section=windows",
-    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.2.4.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.2.5.win.zip"
   },
   {
     "id": "Idea.IntelliJ.Community",
     "application": "Idea.IntelliJ.Community",
-    "version": "2023.2.4",
+    "version": "2023.2.5",
     "source": "https://www.jetbrains.com/idea/download/#section=windows",
-    "download_url": "https://download.jetbrains.com/idea/ideaIC-2023.2.4.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIC-2023.2.5.win.zip"
   },
   {
     "id": "kubectl",
@@ -66,9 +66,9 @@
   {
     "id": "gitlab-cli",
     "application": "gitlab-cli",
-    "version": "1.34.0",
+    "version": "1.35.0",
     "source": "https://gitlab.com/gitlab-org/cli/-/releases",
-    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.34.0/downloads/glab_1.34.0_Windows_x86_64.zip"
+    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.35.0/downloads/glab_1.35.0_Windows_x86_64.zip"
   },
   {
     "id": "maven",
