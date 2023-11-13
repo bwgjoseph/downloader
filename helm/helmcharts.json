@@ -1,0 +1,69 @@
+[
+  {
+    "id": "grafana",
+    "helm": "grafana",
+    "repo": "https://grafana.github.io/helm-charts",
+    "charts": [
+      "grafana/grafana",
+      "grafana/grafana-agent",
+      "grafana/grafana-agent-operator",
+      "grafana/k6-operator",
+      "grafana/k8s-monitoring",
+      "grafana/lgtm-distributed",
+      "grafana/loki",
+      "grafana/loki-distributed",
+      "grafana/loki-stack",
+      "grafana/mimir-distributed",
+      "grafana/promtail",
+      "grafana/tempo",
+      "grafana/tempo-distributed",
+      "prometheus-community/kube-prometheus-stack"
+    ]
+  },
+  {
+    "id": "prometheus-community",
+    "helm": "prometheus-community",
+    "repo": "https://prometheus-community.github.io/helm-charts",
+    "charts": [
+      "prometheus-community/kube-prometheus-stack",
+      "prometheus-community/kube-state-metrics",
+      "prometheus-community/prometheus",
+      "prometheus-community/prometheus-elasticsearch-exporter",
+      "prometheus-community/prometheus-kafka-exporter",
+      "prometheus-community/prometheus-mongodb-exporter",
+      "prometheus-community/prometheus-redis-exporter"
+    ]
+  },
+  {
+    "id": "minio",
+    "helm": "minio",
+    "repo": "https://charts.min.io",
+    "charts": [
+      "minio/minio"
+    ]
+  },
+  {
+    "id": "ostara",
+    "helm": "ostara",
+    "repo": "https://krud-dev.github.io/ostara-helm",
+    "charts": [
+      "ostara/agent"
+    ]
+  },
+  {
+    "id": "strimzi",
+    "helm": "strimzi",
+    "repo": "https://strimzi.io/charts",
+    "charts": [
+      "strimzi/strimzi-kafka-operator"
+    ]
+  },
+  {
+    "id": "microcks",
+    "helm": "microcks",
+    "repo": "https://microcks.io/helm",
+    "charts": [
+      "microcks/microcks"
+    ]
+  }
+]

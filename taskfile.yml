@@ -27,6 +27,7 @@ tasks:
       - echo "starting downloads"
       - task: dl-apps
       - task: dl-gh
+      - task: dl-helm
       - task: dl-pw
       - task: dl-ip
       - task: dl-vsc
@@ -48,6 +49,14 @@ tasks:
     cmds:
       - pwsh -File github-downloads.ps1
       - '{{.SHELL}} -Command Move-Item -Path {{.GH_DL_DIR}} -Destination $WORKING_DIR\\$TODAY'
+  dl-helm:
+    platforms: [windows]
+    dir: /helm
+    vars:
+      HELM_DL_DIR: $WORKING_DIR\\helm\\_helmcharts
+    cmds:
+      - pwsh -File helm-downloads.ps1
+      - '{{.SHELL}} -Command Move-Item -Path {{.HELM_DL_DIR}} -Destination $WORKING_DIR\\$TODAY'
   dl-pw:
     platforms: [windows]
     dir: /playwright
