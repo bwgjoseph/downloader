@@ -102,5 +102,9 @@
   {
     "repo": "https://github.com/usebruno/bruno/",
     "pattern": "bruno_*_x64_win.exe"
+  },
+  {
+    "repo": "https://github.com/microsoft/WSL/",
+    "pattern": "wsl.*.x64.msi"
   }
 ]

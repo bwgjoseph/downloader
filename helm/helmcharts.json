@@ -40,6 +40,16 @@
     "repo": "https://charts.min.io",
     "charts": [
       "minio/minio"
+    ],
+    "url": "https://github.com/minio/minio/tree/master/helm/minio"
+  },
+  {
+    "id": "minio-operator",
+    "helm": "minio-operator",
+    "repo": "https://operator.min.io",
+    "charts": [
+      "minio-operator/operator",
+      "minio-operator/tenant"
     ]
   },
   {
@@ -64,6 +74,38 @@
     "repo": "https://microcks.io/helm",
     "charts": [
       "microcks/microcks"
+    ]
+  },
+  {
+    "id": "microcks-operator",
+    "helm": "microcks-operator",
+    "repo": "https://operator.min.io",
+    "charts": [
+      "minio-operator/operator"
+    ]
+  },
+  {
+    "id": "redis",
+    "helm": "redis",
+    "repo": "",
+    "charts": [
+      ""
+    ]
+  },
+  {
+    "id": "redis-stack",
+    "helm": "redis-stack",
+    "repo": "https://redis-stack.github.io/helm-redis-stack/",
+    "charts": [
+      "redis-stack/redis-stack"
+    ]
+  },
+  {
+    "id": "hashicorp",
+    "helm": "hashicorp",
+    "repo": "https://helm.releases.hashicorp.com",
+    "charts": [
+      "hashicorp/vault"
     ]
   }
 ]

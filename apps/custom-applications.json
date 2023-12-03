@@ -105,5 +105,26 @@
     "version": "11",
     "source": "https://www.oracle.com/sg/database/technologies/appdev/jdbc-downloads.html",
     "download_url": "https://download.oracle.com/otn-pub/otn_software/jdbc/232-DeveloperRel/ojdbc11.jar"
+  },
+  {
+    "id": "testcontainers-desktop-apps",
+    "application": "testcontainers-desktop-apps",
+    "version": "",
+    "source": "https://testcontainers.com/desktop/#windows",
+    "download_url": "https://app.testcontainers.cloud/download/testcontainers-desktop_windows_x86-64.msi"
+  },
+  {
+    "id": "minio-mc",
+    "application": "minio-mc",
+    "version": "",
+    "source": "https://github.com/minio/mc",
+    "download_url": "https://dl.min.io/client/mc/release/windows-amd64/mc.exe"
+  },
+  {
+    "id": "sqlcl",
+    "application": "sqlcl",
+    "version": "",
+    "source": "https://github.com/gvenzl/oracle-tools/blob/main/sqlcl/sql",
+    "download_url": "https://download.oracle.com/otn_software/java/sqldeveloper/sqlcl-latest.zip"
   }
 ]
