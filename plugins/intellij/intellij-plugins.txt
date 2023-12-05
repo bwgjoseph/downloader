@@ -26,6 +26,7 @@ jd-intellij
 Key%20Promoter%20X
 lechuck.intellij-plugin.task
 manjaro.mpb
+me.bechberger.jfrplugin
 me.xdrop.night-owl
 mobi.hsz.idea.gitignore
 mockitools
