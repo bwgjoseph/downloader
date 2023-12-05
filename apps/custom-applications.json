@@ -2,9 +2,9 @@
   {
     "id": "FreeFileSync",
     "application": "FreeFileSync",
-    "version": "13.1",
+    "version": "13.2",
     "source": "https://freefilesync.org/download.php",
-    "download_url": "https://freefilesync.org/download/FreeFileSync_13.1_Windows_Setup.exe"
+    "download_url": "https://freefilesync.org/download/FreeFileSync_13.2_Windows_Setup.exe"
   },
   {
     "id": "helm",
@@ -30,31 +30,31 @@
   {
     "id": "kubectl",
     "application": "kubectl",
-    "version": "1.28.3",
+    "version": "1.28.4",
     "source": "https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/",
-    "download_url": "https://dl.k8s.io/release/v1.28.3/bin/windows/amd64/kubectl.exe"
+    "download_url": "https://dl.k8s.io/release/v1.28.4/bin/windows/amd64/kubectl.exe"
   },
   {
     "id": "mobaxterm",
     "application": "mobaxterm",
-    "version": "23.4",
+    "version": "23.5",
     "source": "https://mobaxterm.mobatek.net/download-home-edition.html",
-    "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v23.4.zip"
+    "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v23.5.zip"
   },
   {
     "id": "openssl",
     "application": "openssl",
-    "version": "3.1.0",
+    "version": "3.2.0",
     "source": "https://slproweb.com/products/Win32OpenSSL.html",
-    "download_url": "https://slproweb.com/download/Win64OpenSSL-3_1_0.exe"
+    "download_url": "https://slproweb.com/download/Win64OpenSSL-3_2_0.exe"
   },
   {
     "id": "studio3t",
     "application": "studio3t",
-    "version": "2023.8.0",
+    "version": "2023.9.0",
     "source": "https://studio3t.com/download/",
-    "download_url": "https://download.studio3t.com/studio-3t/windows/2023.8.0/studio-3t-x64.zip",
-    "filename": "studio-3t-x64-2023.8.0.zip"
+    "download_url": "https://download.studio3t.com/studio-3t/windows/2023.9.0/studio-3t-x64.zip",
+    "filename": "studio-3t-x64-2023.9.0.zip"
   },
   {
     "id": "jmeter",
@@ -73,9 +73,9 @@
   {
     "id": "maven",
     "application": "maven",
-    "version": "3.9.5",
+    "version": "3.9.6",
     "source": "https://maven.apache.org/download.cgi",
-    "download_url": "https://dlcdn.apache.org/maven/maven-3/3.9.5/binaries/apache-maven-3.9.5-bin.zip"
+    "download_url": "https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.zip"
   },
   {
     "id": "maven-wrapper",

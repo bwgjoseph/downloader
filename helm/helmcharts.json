@@ -85,14 +85,6 @@
     ]
   },
   {
-    "id": "redis",
-    "helm": "redis",
-    "repo": "",
-    "charts": [
-      ""
-    ]
-  },
-  {
     "id": "redis-stack",
     "helm": "redis-stack",
     "repo": "https://redis-stack.github.io/helm-redis-stack/",
