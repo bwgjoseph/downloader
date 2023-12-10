@@ -1,7 +1,9 @@
 aaron-bond.better-comments
 antfu.file-nesting
 appland.appmap
+biomejs.biome
 christian-kohler.npm-intellisense
+csstools.postcss
 dbaeumer.vscode-eslint
 eamodio.gitlens
 EditorConfig.EditorConfig
@@ -43,4 +45,5 @@ vscjava.vscode-java-test
 vscjava.vscode-maven
 vscjava.vscode-spring-boot-dashboard
 vscjava.vscode-spring-initializr
+vunguyentuan.vscode-css-variables
 ZixuanChen.vitest-explorer

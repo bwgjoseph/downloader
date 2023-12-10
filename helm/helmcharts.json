@@ -93,6 +93,14 @@
     ]
   },
   {
+    "id": "bitnami",
+    "helm": "bitnami",
+    "repo": "https://charts.bitnami.com/bitnami",
+    "charts": [
+      "bitnami/redis"
+    ]
+  },
+  {
     "id": "hashicorp",
     "helm": "hashicorp",
     "repo": "https://helm.releases.hashicorp.com",

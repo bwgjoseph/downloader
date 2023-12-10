@@ -16,16 +16,16 @@
   {
     "id": "Idea.IntelliJ.Ultimate",
     "application": "Idea.IntelliJ.Ultimate",
-    "version": "2023.2.5",
+    "version": "2023.3",
     "source": "https://www.jetbrains.com/idea/download/#section=windows",
-    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.2.5.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.3.win.zip"
   },
   {
     "id": "Idea.IntelliJ.Community",
     "application": "Idea.IntelliJ.Community",
-    "version": "2023.2.5",
+    "version": "2023.3",
     "source": "https://www.jetbrains.com/idea/download/#section=windows",
-    "download_url": "https://download.jetbrains.com/idea/ideaIC-2023.2.5.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIC-2023.3.win.zip"
   },
   {
     "id": "kubectl",
