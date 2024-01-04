@@ -9,23 +9,23 @@
   {
     "id": "helm",
     "application": "helm",
-    "version": "3.13.2",
+    "version": "3.13.3",
     "source": "https://github.com/helm/helm/releases",
-    "download_url": "https://get.helm.sh/helm-v3.13.2-windows-amd64.zip"
+    "download_url": "https://get.helm.sh/helm-v3.13.3-windows-amd64.zip"
   },
   {
     "id": "Idea.IntelliJ.Ultimate",
     "application": "Idea.IntelliJ.Ultimate",
-    "version": "2023.3",
+    "version": "2023.3.2",
     "source": "https://www.jetbrains.com/idea/download/#section=windows",
-    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.3.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.3.2.win.zip"
   },
   {
     "id": "Idea.IntelliJ.Community",
     "application": "Idea.IntelliJ.Community",
-    "version": "2023.3",
+    "version": "2023.3.2",
     "source": "https://www.jetbrains.com/idea/download/#section=windows",
-    "download_url": "https://download.jetbrains.com/idea/ideaIC-2023.3.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIC-2023.3.2.win.zip"
   },
   {
     "id": "kubectl",
@@ -37,9 +37,9 @@
   {
     "id": "mobaxterm",
     "application": "mobaxterm",
-    "version": "23.5",
+    "version": "23.6",
     "source": "https://mobaxterm.mobatek.net/download-home-edition.html",
-    "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v23.5.zip"
+    "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v23.6.zip"
   },
   {
     "id": "openssl",
@@ -51,10 +51,10 @@
   {
     "id": "studio3t",
     "application": "studio3t",
-    "version": "2023.9.0",
+    "version": "2023.9.1",
     "source": "https://studio3t.com/download/",
-    "download_url": "https://download.studio3t.com/studio-3t/windows/2023.9.0/studio-3t-x64.zip",
-    "filename": "studio-3t-x64-2023.9.0.zip"
+    "download_url": "https://download.studio3t.com/studio-3t/windows/2023.9.1/studio-3t-x64.zip",
+    "filename": "studio-3t-x64-2023.9.1.zip"
   },
   {
     "id": "jmeter",
@@ -66,9 +66,9 @@
   {
     "id": "gitlab-cli",
     "application": "gitlab-cli",
-    "version": "1.35.0",
+    "version": "1.36.0",
     "source": "https://gitlab.com/gitlab-org/cli/-/releases",
-    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.35.0/downloads/glab_1.35.0_Windows_x86_64.zip"
+    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.36.0/downloads/glab_1.36.0_Windows_x86_64.zip"
   },
   {
     "id": "maven",
