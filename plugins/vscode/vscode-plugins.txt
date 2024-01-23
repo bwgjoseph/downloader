@@ -46,4 +46,5 @@ vscjava.vscode-maven
 vscjava.vscode-spring-boot-dashboard
 vscjava.vscode-spring-initializr
 vunguyentuan.vscode-css-variables
+yoavbls.pretty-ts-errors
 ZixuanChen.vitest-explorer
