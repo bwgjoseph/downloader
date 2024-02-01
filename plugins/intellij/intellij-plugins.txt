@@ -33,6 +33,7 @@ me.xdrop.night-owl
 mobi.hsz.idea.gitignore
 mockitools
 org.apache.camel
+org.digma.intellij
 org.intellij.plugins.markdown
 org.intellij.scala
 org.jetbrains.jumpToLine
@@ -42,6 +43,7 @@ org.monkeyhelper.plugins
 org.mvnsearch.jetbrains.plugins.httpx-jetbrains-plugin
 org.nik.presentation-assistant
 org.openpolicyagent.opa-idea-plugin
+org.OverEngineer.InlineProblems
 org.sonarlint.idea
 palantir-java-format
 PlantUML%20integration
