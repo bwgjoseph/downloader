@@ -106,5 +106,13 @@
   {
     "repo": "https://github.com/microsoft/WSL/",
     "pattern": "wsl.*.x64.msi"
+  },
+  {
+    "repo": "https://github.com/argoproj/argo-workflows/",
+    "pattern": "argo-windows-amd64.exe.gz"
+  },
+  {
+    "repo": "https://github.com/mikefarah/yq/",
+    "pattern": "yq_windows_amd64.exe"
   }
 ]

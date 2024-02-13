@@ -22,6 +22,7 @@ ms-vscode-remote.remote-wsl
 ms-vscode-remote.vscode-remote-extensionpack
 nrwl.angular-console
 Oracle.oracle-java
+Oracle.oracledevtools
 pflannery.vscode-versionlens
 pmiossec.vscode-gitextensions
 redhat.java

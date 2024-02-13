@@ -2,9 +2,9 @@
   {
     "id": "FreeFileSync",
     "application": "FreeFileSync",
-    "version": "13.2",
+    "version": "13.3",
     "source": "https://freefilesync.org/download.php",
-    "download_url": "https://freefilesync.org/download/FreeFileSync_13.2_Windows_Setup.exe"
+    "download_url": "https://freefilesync.org/download/FreeFileSync_13.3_Windows_Setup.exe"
   },
   {
     "id": "helm",
@@ -16,16 +16,16 @@
   {
     "id": "Idea.IntelliJ.Ultimate",
     "application": "Idea.IntelliJ.Ultimate",
-    "version": "2023.3.2",
+    "version": "2023.3.3",
     "source": "https://www.jetbrains.com/idea/download/#section=windows",
-    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.3.2.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.3.3.win.zip"
   },
   {
     "id": "Idea.IntelliJ.Community",
     "application": "Idea.IntelliJ.Community",
-    "version": "2023.3.2",
+    "version": "2023.3.3",
     "source": "https://www.jetbrains.com/idea/download/#section=windows",
-    "download_url": "https://download.jetbrains.com/idea/ideaIC-2023.3.2.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIC-2023.3.3.win.zip"
   },
   {
     "id": "kubectl",
@@ -51,10 +51,10 @@
   {
     "id": "studio3t",
     "application": "studio3t",
-    "version": "2023.9.1",
+    "version": "2024.1.0",
     "source": "https://studio3t.com/download/",
-    "download_url": "https://download.studio3t.com/studio-3t/windows/2023.9.1/studio-3t-x64.zip",
-    "filename": "studio-3t-x64-2023.9.1.zip"
+    "download_url": "https://download.studio3t.com/studio-3t/windows/2024.1.0/studio-3t-x64.zip",
+    "filename": "studio-3t-x64-2024.1.0.zip"
   },
   {
     "id": "jmeter",

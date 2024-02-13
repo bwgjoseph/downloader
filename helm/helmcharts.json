@@ -97,7 +97,9 @@
     "helm": "bitnami",
     "repo": "https://charts.bitnami.com/bitnami",
     "charts": [
-      "bitnami/redis"
+      "bitnami/redis",
+      "bitnami/minio",
+      "bitnami/mongodb"
     ]
   },
   {
