@@ -16,6 +16,7 @@ com.intellij.mermaid
 com.intellij.plugins.vscodekeymap
 com.intellij.spring.batch
 com.intellij.spring.graphql
+com.intellij.wiremock
 com.jetbrains.packagesearch.intellij-plugin
 com.jetbrains.restClient
 com.jetbrains.sh
