@@ -98,8 +98,12 @@
     "repo": "https://charts.bitnami.com/bitnami",
     "charts": [
       "bitnami/redis",
+      "bitnami/redis-cluster",
       "bitnami/minio",
-      "bitnami/mongodb"
+      "bitnami/mongodb",
+      "bitnami/elasticsearch",
+      "bitnami/schema-registry",
+      "bitnami/vault"
     ]
   },
   {
