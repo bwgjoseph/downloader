@@ -2,37 +2,37 @@
   {
     "id": "FreeFileSync",
     "application": "FreeFileSync",
-    "version": "13.3",
+    "version": "13.4",
     "source": "https://freefilesync.org/download.php",
-    "download_url": "https://freefilesync.org/download/FreeFileSync_13.3_Windows_Setup.exe"
+    "download_url": "https://freefilesync.org/download/FreeFileSync_13.4_Windows_Setup.exe"
   },
   {
     "id": "helm",
     "application": "helm",
-    "version": "3.13.3",
+    "version": "3.14.2",
     "source": "https://github.com/helm/helm/releases",
-    "download_url": "https://get.helm.sh/helm-v3.13.3-windows-amd64.zip"
+    "download_url": "https://get.helm.sh/helm-v3.14.2-windows-amd64.zip"
   },
   {
     "id": "Idea.IntelliJ.Ultimate",
     "application": "Idea.IntelliJ.Ultimate",
-    "version": "2023.3.3",
+    "version": "2023.3.4",
     "source": "https://www.jetbrains.com/idea/download/#section=windows",
-    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.3.3.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIU-2023.3.4.win.zip"
   },
   {
     "id": "Idea.IntelliJ.Community",
     "application": "Idea.IntelliJ.Community",
-    "version": "2023.3.3",
+    "version": "2023.3.4",
     "source": "https://www.jetbrains.com/idea/download/#section=windows",
-    "download_url": "https://download.jetbrains.com/idea/ideaIC-2023.3.3.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIC-2023.3.4.win.zip"
   },
   {
     "id": "kubectl",
     "application": "kubectl",
-    "version": "1.28.4",
+    "version": "1.29.2",
     "source": "https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/",
-    "download_url": "https://dl.k8s.io/release/v1.28.4/bin/windows/amd64/kubectl.exe"
+    "download_url": "https://dl.k8s.io/release/v1.29.2/bin/windows/amd64/kubectl.exe"
   },
   {
     "id": "mobaxterm",
@@ -44,9 +44,9 @@
   {
     "id": "openssl",
     "application": "openssl",
-    "version": "3.2.0",
+    "version": "3.2.1",
     "source": "https://slproweb.com/products/Win32OpenSSL.html",
-    "download_url": "https://slproweb.com/download/Win64OpenSSL-3_2_0.exe"
+    "download_url": "https://slproweb.com/download/Win64OpenSSL-3_2_1.exe"
   },
   {
     "id": "studio3t",
@@ -59,9 +59,9 @@
   {
     "id": "jmeter",
     "application": "jmeter",
-    "version": "5.6.2",
+    "version": "5.6.3",
     "source": "https://jmeter.apache.org/download_jmeter.cgi",
-    "download_url": "https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.6.2.zip"
+    "download_url": "https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.6.3.zip"
   },
   {
     "id": "gitlab-cli",
