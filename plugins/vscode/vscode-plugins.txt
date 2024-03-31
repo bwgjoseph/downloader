@@ -2,7 +2,10 @@ aaron-bond.better-comments
 antfu.file-nesting
 appland.appmap
 biomejs.biome
+bruno-api-client.bruno
+checkmarx.ast-results
 christian-kohler.npm-intellisense
+chrmarti.regex
 csstools.postcss
 dbaeumer.vscode-eslint
 eamodio.gitlens

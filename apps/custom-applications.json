@@ -126,5 +126,19 @@
     "version": "",
     "source": "https://github.com/gvenzl/oracle-tools/blob/main/sqlcl/sql",
     "download_url": "https://download.oracle.com/otn_software/java/sqldeveloper/sqlcl-latest.zip"
+  },
+  {
+    "id": "kadeck",
+    "application": "kadeck",
+    "version": "",
+    "source": "https://www.kadeck.com/get-kadeck",
+    "download_url": "https://download.xeotek.io/professional/win.zip?api_key=xpGiDIONLVAr02Dpvq2348XVLIiWNAvz2u4ByY0BBLF2B1WvqksfH5&license=kadep-mtywn-tg4nt-e0nza1mc1ilmj1awnrl7976326488.0219145"
+  },
+  {
+    "id": "kafka",
+    "application": "kafka-cli",
+    "version": "3.7.0",
+    "source": "https://kafka.apache.org/downloads",
+    "download_url": "https://downloads.apache.org/kafka/3.7.0/kafka-3.7.0-src.tgz"
   }
 ]

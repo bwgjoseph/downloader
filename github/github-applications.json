@@ -114,5 +114,9 @@
   {
     "repo": "https://github.com/mikefarah/yq/",
     "pattern": "yq_windows_amd64.exe"
+  },
+  {
+    "repo": "https://github.com/ynqa/jnv/",
+    "pattern": "jnv-x86_64-unknown-linux-gnu.tar.xz"
   }
 ]

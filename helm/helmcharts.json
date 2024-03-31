@@ -113,5 +113,14 @@
     "charts": [
       "hashicorp/vault"
     ]
+  },
+  {
+    "id": "influxdata",
+    "helm": "influxdata",
+    "repo": "https://helm.influxdata.com",
+    "charts": [
+      "influxdata/influxdb",
+      "influxdata/influxdb2"
+    ]
   }
 ]

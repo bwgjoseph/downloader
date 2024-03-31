@@ -10,6 +10,9 @@ KDE.KDiff3
 Kubernetes.minikube
 Microsoft.DotNet.DesktopRuntime.6
 Microsoft.DotNet.DesktopRuntime.7
+Microsoft.DotNet.SDK.6
+Microsoft.DotNet.SDK.7
+Microsoft.DotNet.SDK.8
 Microsoft.Edge
 Microsoft.EdgeWebView2Runtime
 Microsoft.PowerShell
