@@ -5,6 +5,7 @@ GitExtensionsTeam.GitExtensions
 GitHub.GitHubDesktop
 Google.Chrome
 HTTPToolKit.HTTPToolKit
+Japplis.Toolbox
 k6.k6
 KDE.KDiff3
 Kubernetes.minikube
@@ -39,3 +40,4 @@ Task.Task
 VMware.WorkstationPlayer
 voidtools.Everything
 XP8K1GHCB0F1R2
+Y2Z.Monolith

@@ -15,11 +15,11 @@ Write-Host "Starting..."
 
 # Set to a default version if not provided
 if ([String]::IsNullOrWhiteSpace($version)) {
-    $version = "2023.3.6"
+    $version = "2024.1.1"
 }
 
 if ([String]::IsNullOrWhiteSpace($build)) {
-    $build = "233.15026.9"
+    $build = "241.15989.150"
 }
 
 $product_code="IU" # IntelliJ IDEA Ultimate
@@ -31,7 +31,8 @@ $product_code="IU" # IntelliJ IDEA Ultimate
 # 2023.3.3 - 233.14015.106
 # 2023.3.4 - 233.14475.28
 # 2023.3.6 - 233.15026.9
-$build="233.15026.9"
+# 2024.1.1 - 241.15989.150
+$build="241.15989.150"
 
 $default_download_dir="./_intellij_plugins_$version"
 
