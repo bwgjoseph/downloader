@@ -7,6 +7,8 @@
       "grafana/grafana",
       "grafana/grafana-agent",
       "grafana/grafana-agent-operator",
+      "grafana/alloy",
+      "grafana/fluent-bit",
       "grafana/k6-operator",
       "grafana/k8s-monitoring",
       "grafana/lgtm-distributed",
@@ -28,6 +30,7 @@
       "prometheus-community/kube-prometheus-stack",
       "prometheus-community/kube-state-metrics",
       "prometheus-community/prometheus",
+      "prometheus-community/prometheus-blackbox-exporter",
       "prometheus-community/prometheus-elasticsearch-exporter",
       "prometheus-community/prometheus-kafka-exporter",
       "prometheus-community/prometheus-mongodb-exporter",
@@ -103,7 +106,8 @@
       "bitnami/mongodb",
       "bitnami/elasticsearch",
       "bitnami/schema-registry",
-      "bitnami/vault"
+      "bitnami/vault",
+      "bitnami/kafka"
     ]
   },
   {
