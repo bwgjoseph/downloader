@@ -126,5 +126,13 @@
       "influxdata/influxdb",
       "influxdata/influxdb2"
     ]
+  },
+  {
+    "id": "kubeshark",
+    "helm": "kubeshark",
+    "repo": "https://helm.kubeshark.co",
+    "charts": [
+      "kubeshark/kubeshark"
+    ]
   }
 ]

@@ -25,6 +25,7 @@ com.robohorse.robopojogenerator
 com.virtuslab.graphbuddy
 de.docs_as_co.intellij.plugin.diagramsnet
 de.platon42.cajon
+dev.openfga.intellijplugin
 google-java-format
 jd-intellij
 Key%20Promoter%20X
