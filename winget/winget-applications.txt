@@ -22,7 +22,6 @@ Microsoft.VCRedist.2015+.x64
 Microsoft.VisualStudioCode
 Microsoft.WindowsTerminal
 Microsoft.WindowsTerminal.Preview
-MKLabs.StarUML
 MongoDB.Compass.Full
 MongoDB.DatabaseTools
 MongoDB.Server
@@ -35,6 +34,7 @@ Oracle.VirtualBox
 PatrikLaszlo.P3XRedisUI
 PuTTY.PuTTY
 Python.Python.3.11
+Rclone.Rclone
 suse.RancherDesktop
 Task.Task
 VMware.WorkstationPlayer

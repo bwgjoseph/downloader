@@ -41,6 +41,7 @@ org.intellij.plugins.markdown
 org.intellij.scala
 org.jetbrains.jumpToLine
 org.jetbrains.plugins.spotbugs
+org.jetbrains.plugins.workspace
 org.mapstruct.intellij
 org.monkeyhelper.plugins
 org.mvnsearch.jetbrains.plugins.httpx-jetbrains-plugin

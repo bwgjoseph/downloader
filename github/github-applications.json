@@ -21,7 +21,7 @@
   },
   {
     "repo": "https://github.com/kubernetes-sigs/kustomize/",
-    "pattern": "*windows_amd64*.tar.gz"
+    "pattern": "*windows_amd64*.zip"
   },
   {
     "repo": "https://github.com/mattermost/desktop/",
@@ -118,5 +118,9 @@
   {
     "repo": "https://github.com/ynqa/jnv/",
     "pattern": "jnv-x86_64-unknown-linux-gnu.tar.xz"
+  },
+  {
+    "repo": "https://github.com/microsoft/kiota/",
+    "pattern": "win-x64.zip"
   }
 ]
