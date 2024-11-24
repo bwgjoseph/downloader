@@ -4,6 +4,7 @@ Git.Git
 GitExtensionsTeam.GitExtensions
 GitHub.GitHubDesktop
 Google.Chrome
+hatoo.oha
 HTTPToolKit.HTTPToolKit
 Japplis.Toolbox
 k6.k6
@@ -11,6 +12,7 @@ KDE.KDiff3
 Kubernetes.minikube
 Microsoft.DotNet.DesktopRuntime.6
 Microsoft.DotNet.DesktopRuntime.7
+Microsoft.DotNet.DesktopRuntime.8
 Microsoft.DotNet.SDK.6
 Microsoft.DotNet.SDK.7
 Microsoft.DotNet.SDK.8

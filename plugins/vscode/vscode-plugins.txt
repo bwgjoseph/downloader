@@ -32,6 +32,7 @@ pmiossec.vscode-gitextensions
 redhat.java
 redhat.vscode-xml
 redhat.vscode-yaml
+redis.redis-for-vscode
 shd101wyy.markdown-preview-enhanced
 shengchen.vscode-checkstyle
 SonarSource.sonarlint-vscode

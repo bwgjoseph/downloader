@@ -34,7 +34,9 @@
       "prometheus-community/prometheus-elasticsearch-exporter",
       "prometheus-community/prometheus-kafka-exporter",
       "prometheus-community/prometheus-mongodb-exporter",
-      "prometheus-community/prometheus-redis-exporter"
+      "prometheus-community/prometheus-node-exporter",
+      "prometheus-community/prometheus-redis-exporter",
+      "prometheus-community/prometheus-sql-exporter"
     ]
   },
   {
@@ -107,7 +109,8 @@
       "bitnami/elasticsearch",
       "bitnami/schema-registry",
       "bitnami/vault",
-      "bitnami/kafka"
+      "bitnami/kafka",
+      "bitnami/valkey"
     ]
   },
   {
@@ -133,6 +136,30 @@
     "repo": "https://helm.kubeshark.co",
     "charts": [
       "kubeshark/kubeshark"
+    ]
+  },
+  {
+    "id": "akhq",
+    "helm": "akhq",
+    "repo": "https://akhq.io",
+    "charts": [
+      "akhq/akhq"
+    ]
+  },
+  {
+    "id": "komodorio",
+    "helm": "komodorio",
+    "repo": "https://helm-charts.komodor.io",
+    "charts": [
+      "komodorio/helm-dashboard"
+    ]
+  },
+  {
+    "id": "risingwavelabs",
+    "helm": "risingwavelabs",
+    "repo": "https://risingwavelabs.github.io/helm-charts/",
+    "charts": [
+      "risingwavelabs/risingwave"
     ]
   }
 ]
