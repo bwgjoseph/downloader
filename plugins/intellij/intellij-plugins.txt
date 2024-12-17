@@ -10,6 +10,7 @@ com.intellij.bigdatatools.binary.files
 com.intellij.bigdatatools.core
 com.intellij.bigdatatools.kafka
 com.intellij.bigdatatools.rfs
+com.intellij.jvm.dfa.analysis
 com.intellij.kubernetes
 com.intellij.lang.jsgraphql
 com.intellij.mermaid
