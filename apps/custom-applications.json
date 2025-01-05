@@ -2,44 +2,44 @@
   {
     "id": "FreeFileSync",
     "application": "FreeFileSync",
-    "version": "13.8",
+    "version": "13.9",
     "source": "https://freefilesync.org/download.php",
-    "download_url": "https://freefilesync.org/download/FreeFileSync_13.8_Windows_Setup.exe"
+    "download_url": "https://freefilesync.org/download/FreeFileSync_13.9_Windows_Setup.exe"
   },
   {
     "id": "helm",
     "application": "helm",
-    "version": "3.16.3",
+    "version": "3.16.4",
     "source": "https://github.com/helm/helm/releases",
-    "download_url": "https://get.helm.sh/helm-v3.16.3-windows-amd64.zip"
+    "download_url": "https://get.helm.sh/helm-v3.16.4-windows-amd64.zip"
   },
   {
     "id": "Idea.IntelliJ.Ultimate",
     "application": "Idea.IntelliJ.Ultimate",
-    "version": "2024.3.1",
+    "version": "2024.3.1.1",
     "source": "https://www.jetbrains.com/idea/download/",
-    "download_url": "https://download.jetbrains.com/idea/ideaIU-2024.3.1.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIU-2024.3.1.1.win.zip"
   },
   {
     "id": "Idea.IntelliJ.Community",
     "application": "Idea.IntelliJ.Community",
-    "version": "2024.3.1",
+    "version": "2024.3.1.1",
     "source": "https://www.jetbrains.com/idea/download/",
-    "download_url": "https://download.jetbrains.com/idea/ideaIC-2024.3.1.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIC-2024.3.1.1.win.zip"
   },
   {
     "id": "kubectl",
     "application": "kubectl",
-    "version": "1.31.0",
+    "version": "1.32.0",
     "source": "https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/",
-    "download_url": "https://dl.k8s.io/release/v1.31.0/bin/windows/amd64/kubectl.exe"
+    "download_url": "https://dl.k8s.io/release/v1.32.0/bin/windows/amd64/kubectl.exe"
   },
   {
     "id": "mobaxterm",
     "application": "mobaxterm",
-    "version": "24.3",
+    "version": "24.4",
     "source": "https://mobaxterm.mobatek.net/download-home-edition.html",
-    "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v24.3.zip"
+    "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v24.4.zip"
   },
   {
     "id": "openssl",
@@ -51,10 +51,10 @@
   {
     "id": "studio3t",
     "application": "studio3t",
-    "version": "2024.4.1",
+    "version": "2024.5.1",
     "source": "https://studio3t.com/download/",
-    "download_url": "https://download.studio3t.com/studio-3t/windows/2024.4.1/studio-3t-x64.zip",
-    "filename": "studio-3t-x64-2024.4.1.zip"
+    "download_url": "https://download.studio3t.com/studio-3t/windows/2024.5.1/studio-3t-x64.zip",
+    "filename": "studio-3t-x64-2024.5.1.zip"
   },
   {
     "id": "jmeter",
@@ -66,9 +66,9 @@
   {
     "id": "gitlab-cli",
     "application": "gitlab-cli",
-    "version": "1.15.0",
+    "version": "1.51.0",
     "source": "https://gitlab.com/gitlab-org/cli/-/releases",
-    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.15.0/downloads/glab_1.15.0_Windows_x86_64.zip"
+    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.51.0/downloads/glab_1.51.0_Windows_x86_64.zip"
   },
   {
     "id": "maven",
@@ -94,7 +94,7 @@
   {
     "id": "http-client-cli",
     "application": "http-client-cli",
-    "version": "2023.2",
+    "version": "2024.2.0.2",
     "source": "https://www.jetbrains.com/help/idea/http-client-cli.html",
     "download_url": "https://jb.gg/ijhttp/latest",
     "filename": "intellij-http-client.zip"
@@ -165,16 +165,16 @@
   {
     "id": "mongo-shell",
     "application": "mongo-shell",
-    "version": "2.3.6",
+    "version": "2.3.7",
     "source": "https://www.mongodb.com/try/download/shell",
-    "download_url": "https://downloads.mongodb.com/compass/mongosh-2.3.6-win32-x64.zip"
+    "download_url": "https://downloads.mongodb.com/compass/mongosh-2.3.7-win32-x64.zip"
   },
   {
     "id": "mongo-relational-migrator",
     "application": "mongo-relational-migrator",
-    "version": "1.10.0",
+    "version": "1.11.0",
     "source": "https://www.mongodb.com/try/download/relational-migrator",
-    "download_url": "https://downloads.mongodb.org/migrator/1.10.0/MongoDB%20Relational%20Migrator-1.10.0.msi"
+    "download_url": "https://downloads.mongodb.org/migrator/1.11.0/MongoDB%20Relational%20Migrator-1.11.0.msi"
   },
   {
     "id": "mongo-database-tools",

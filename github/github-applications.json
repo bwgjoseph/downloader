@@ -126,5 +126,9 @@
   {
     "repo": "https://github.com/microsoft/kiota/",
     "pattern": "win-x64.zip"
+  },
+  {
+    "repo": "https://github.com/apache/maven-mvnd/",
+    "pattern": "maven-mvnd-*-windows-amd64.zip"
   }
 ]
