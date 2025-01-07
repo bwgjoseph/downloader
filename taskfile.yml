@@ -29,6 +29,7 @@ tasks:
       - task: dl-gh
       - task: dl-helm
       - task: dl-pw
+      - task: dl-chrome
       - task: dl-ip
       - task: dl-vsc
       - task: dl-wg
@@ -65,6 +66,14 @@ tasks:
     cmds:
       - pwsh -File playwright-downloads.ps1
       - '{{.SHELL}} -Command Move-Item -Path {{.PW_DL_DIR}} -Destination $WORKING_DIR\\$TODAY'
+  dl-chrome:
+    platforms: [windows]
+    dir: /plugins/chrome
+    vars:
+      CHROME_DL_DIR: $WORKING_DIR\\plugins\\chrome\\_chrome
+    cmds:
+      - pwsh -File chrome-plugin-downloads.ps1
+      - '{{.SHELL}} -Command Move-Item -Path {{.CHROME_DL_DIR}} -Destination $WORKING_DIR\\$TODAY'
   dl-ip:
     platforms: [windows]
     dir: /plugins/intellij
@@ -74,7 +83,7 @@ tasks:
       - pwsh -File intellij-plugin-downloads.ps1 -version 2024.2.3 -build 242.23339.11
       - '{{.SHELL}} -Command Move-Item -Path {{.IP_DL_DIR}}\\_intellij_plugins_2024.2.3 -Destination $WORKING_DIR\\$TODAY'
       - pwsh -File intellij-plugin-downloads.ps1 -version 2024.3.1.1 -build 243.22562.218
-      - '{{.SHELL}} -Command Move-Item -Path {{.IP_DL_DIR}}\\_intellij_plugins_2024.3 -Destination $WORKING_DIR\\$TODAY'
+      - '{{.SHELL}} -Command Move-Item -Path {{.IP_DL_DIR}}\\_intellij_plugins_2024.3.1.1 -Destination $WORKING_DIR\\$TODAY'
   dl-vsc:
     platforms: [windows]
     dir: /plugins/vscode
