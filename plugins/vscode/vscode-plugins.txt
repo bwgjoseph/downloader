@@ -8,6 +8,7 @@ christian-kohler.npm-intellisense
 chrmarti.regex
 csstools.postcss
 dbaeumer.vscode-eslint
+dsznajder.es7-react-js-snippets
 eamodio.gitlens
 EditorConfig.EditorConfig
 eg2.vscode-npm-script
