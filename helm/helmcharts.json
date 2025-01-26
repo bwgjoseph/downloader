@@ -161,5 +161,13 @@
     "charts": [
       "risingwavelabs/risingwave"
     ]
+  },
+  {
+    "id": "kafbat",
+    "helm": "kafbat",
+    "repo": "https://kafbat.github.io/helm-charts/",
+    "charts": [
+      "kafbat-ui/kafka-ui"
+    ]
   }
 ]

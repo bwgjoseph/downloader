@@ -130,5 +130,13 @@
   {
     "repo": "https://github.com/apache/maven-mvnd/",
     "pattern": "maven-mvnd-*-windows-amd64.zip"
+  },
+  {
+    "repo": "https://github.com/kaikramer/keystore-explorer/",
+    "pattern": "kse-*-setup.exe"
+  },
+  {
+    "repo": "https://github.com/utkuozdemir/pv-migrate/",
+    "pattern": "pv-migrate_*_windows_x86_64.zip"
   }
 ]
