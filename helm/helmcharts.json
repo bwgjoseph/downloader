@@ -110,7 +110,8 @@
       "bitnami/schema-registry",
       "bitnami/vault",
       "bitnami/kafka",
-      "bitnami/valkey"
+      "bitnami/valkey",
+      "bitnami/postgresql"
     ]
   },
   {
@@ -168,6 +169,14 @@
     "repo": "https://kafbat.github.io/helm-charts/",
     "charts": [
       "kafbat-ui/kafka-ui"
+    ]
+  },
+  {
+    "id": "pmint93",
+    "helm": "pmint93",
+    "repo": "https://pmint93.github.io/helm-charts/",
+    "charts": [
+      "pmint93/metabase"
     ]
   }
 ]
