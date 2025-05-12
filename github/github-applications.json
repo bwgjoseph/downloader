@@ -12,7 +12,7 @@
     "pattern": "*jdk_x64_windows*.zip"
   },
   {
-    "repo": "https://github.com/adoptium/temurin23-binaries/",
+    "repo": "https://github.com/adoptium/temurin24-binaries/",
     "pattern": "*jdk_x64_windows*.zip"
   },
   {

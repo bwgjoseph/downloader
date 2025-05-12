@@ -2,44 +2,44 @@
   {
     "id": "FreeFileSync",
     "application": "FreeFileSync",
-    "version": "14.0",
+    "version": "14.3",
     "source": "https://freefilesync.org/download.php",
-    "download_url": "https://freefilesync.org/download/FreeFileSync_14.0_Windows_Setup.exe"
+    "download_url": "https://freefilesync.org/download/FreeFileSync_14.3_Windows_Setup.exe"
   },
   {
     "id": "helm",
     "application": "helm",
-    "version": "3.17.0",
+    "version": "3.17.3",
     "source": "https://github.com/helm/helm/releases",
-    "download_url": "https://get.helm.sh/helm-v3.17.0-windows-amd64.zip"
+    "download_url": "https://get.helm.sh/helm-v3.17.3-windows-amd64.zip"
   },
   {
     "id": "Idea.IntelliJ.Ultimate",
     "application": "Idea.IntelliJ.Ultimate",
-    "version": "2024.3.2.1",
+    "version": "2025.1.1.1",
     "source": "https://www.jetbrains.com/idea/download/",
-    "download_url": "https://download.jetbrains.com/idea/ideaIU-2024.3.2.1.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIU-2025.1.1.1.win.zip"
   },
   {
     "id": "Idea.IntelliJ.Community",
     "application": "Idea.IntelliJ.Community",
-    "version": "2024.3.2.1",
+    "version": "2025.1.1.1",
     "source": "https://www.jetbrains.com/idea/download/",
-    "download_url": "https://download.jetbrains.com/idea/ideaIC-2024.3.2.1.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIC-2025.1.1.1.win.zip"
   },
   {
     "id": "kubectl",
     "application": "kubectl",
-    "version": "1.32.0",
+    "version": "1.33.0",
     "source": "https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/",
-    "download_url": "https://dl.k8s.io/release/v1.32.0/bin/windows/amd64/kubectl.exe"
+    "download_url": "https://dl.k8s.io/release/v1.33.0/bin/windows/amd64/kubectl.exe"
   },
   {
     "id": "mobaxterm",
     "application": "mobaxterm",
-    "version": "25.0",
+    "version": "25.2",
     "source": "https://mobaxterm.mobatek.net/download-home-edition.html",
-    "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v25.0.zip"
+    "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v25.2.zip"
   },
   {
     "id": "openssl",
@@ -51,10 +51,10 @@
   {
     "id": "studio3t",
     "application": "studio3t",
-    "version": "2025.1.0",
+    "version": "2025.8.0",
     "source": "https://studio3t.com/download/",
-    "download_url": "https://download.studio3t.com/studio-3t/windows/2025.1.0/studio-3t-x64.zip",
-    "filename": "studio-3t-x64-2025.1.0.zip"
+    "download_url": "https://download.studio3t.com/studio-3t/windows/2025.8.0/studio-3t-x64.zip",
+    "filename": "studio-3t-x64-2025.8.0.zip"
   },
   {
     "id": "jmeter",
@@ -66,9 +66,9 @@
   {
     "id": "gitlab-cli",
     "application": "gitlab-cli",
-    "version": "1.52.0",
+    "version": "1.57.0",
     "source": "https://gitlab.com/gitlab-org/cli/-/releases",
-    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.52.0/downloads/glab_1.52.0_Windows_x86_64.zip"
+    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.57.0/downloads/glab_1.57.0_Windows_x86_64.zip"
   },
   {
     "id": "maven",
@@ -144,44 +144,44 @@
   {
     "id": "kafka",
     "application": "kafka-cli",
-    "version": "3.9.0",
+    "version": "4.0.0",
     "source": "https://kafka.apache.org/downloads",
-    "download_url": "https://downloads.apache.org/kafka/3.9.0/kafka-3.9.0-src.tgz"
+    "download_url": "https://downloads.apache.org/kafka/4.0.0/kafka-4.0.0-src.tgz"
   },
   {
     "id": "mongo-compass",
     "application": "mongo-compass",
-    "version": "1.45.1",
+    "version": "1.46.2",
     "source": "https://www.mongodb.com/try/download/compass",
-    "download_url": "https://downloads.mongodb.com/compass/mongodb-compass-1.45.1-win32-x64.exe"
+    "download_url": "https://downloads.mongodb.com/compass/mongodb-compass-1.46.2-win32-x64.exe"
   },
   {
     "id": "mongo-compass-zip",
     "application": "mongo-compass-zip",
-    "version": "1.45.1",
+    "version": "1.46.2",
     "source": "https://www.mongodb.com/try/download/compass",
-    "download_url": "https://downloads.mongodb.com/compass/mongodb-compass-1.45.1-win32-x64.zip"
+    "download_url": "https://downloads.mongodb.com/compass/mongodb-compass-1.46.2-win32-x64.zip"
   },
   {
     "id": "mongo-shell",
     "application": "mongo-shell",
-    "version": "2.3.8",
+    "version": "2.5.1",
     "source": "https://www.mongodb.com/try/download/shell",
-    "download_url": "https://downloads.mongodb.com/compass/mongosh-2.3.8-win32-x64.zip"
+    "download_url": "https://downloads.mongodb.com/compass/mongosh-2.5.1-win32-x64.zip"
   },
   {
     "id": "mongo-relational-migrator",
     "application": "mongo-relational-migrator",
-    "version": "1.11.0",
+    "version": "1.13.1",
     "source": "https://www.mongodb.com/try/download/relational-migrator",
-    "download_url": "https://downloads.mongodb.org/migrator/1.11.0/MongoDB%20Relational%20Migrator-1.11.0.msi"
+    "download_url": "https://downloads.mongodb.org/migrator/1.13.1/MongoDB%20Relational%20Migrator-1.13.1.msi"
   },
   {
     "id": "mongo-database-tools",
     "application": "mongo-database-tools",
-    "version": "100.10.0",
+    "version": "100.12.0",
     "source": "https://www.mongodb.com/try/download/database-tools",
-    "download_url": "https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.10.0.zip"
+    "download_url": "https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.12.0.zip"
   },
   {
     "id": "google-chrome-offline-installer",

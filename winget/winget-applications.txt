@@ -8,6 +8,7 @@ hatoo.oha
 HTTPToolKit.HTTPToolKit
 Japplis.Toolbox
 k6.k6
+k9s
 KDE.KDiff3
 Kubernetes.minikube
 Microsoft.DotNet.DesktopRuntime.6
