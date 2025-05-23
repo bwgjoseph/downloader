@@ -16,6 +16,7 @@ com.intellij.lang.jsgraphql
 com.intellij.mermaid
 com.intellij.plugins.vscodekeymap
 com.intellij.spring.batch
+com.intellij.spring.debugger
 com.intellij.spring.graphql
 com.intellij.wiremock
 com.jetbrains.packagesearch.intellij-plugin
@@ -41,6 +42,7 @@ org.digma.intellij
 org.intellij.plugins.markdown
 org.intellij.scala
 org.jetbrains.jumpToLine
+org.jetbrains.junie
 org.jetbrains.plugins.spotbugs
 org.jetbrains.plugins.workspace
 org.mapstruct.intellij
