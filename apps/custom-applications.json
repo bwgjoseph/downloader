@@ -16,16 +16,16 @@
   {
     "id": "Idea.IntelliJ.Ultimate",
     "application": "Idea.IntelliJ.Ultimate",
-    "version": "2025.1.1.1",
+    "version": "2025.1.2",
     "source": "https://www.jetbrains.com/idea/download/",
-    "download_url": "https://download.jetbrains.com/idea/ideaIU-2025.1.1.1.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIU-2025.1.2.win.zip"
   },
   {
     "id": "Idea.IntelliJ.Community",
     "application": "Idea.IntelliJ.Community",
-    "version": "2025.1.1.1",
+    "version": "2025.1.2",
     "source": "https://www.jetbrains.com/idea/download/",
-    "download_url": "https://download.jetbrains.com/idea/ideaIC-2025.1.1.1.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIC-2025.1.2.win.zip"
   },
   {
     "id": "kubectl",
@@ -73,9 +73,9 @@
   {
     "id": "maven",
     "application": "maven",
-    "version": "3.9.9",
+    "version": "3.9.10",
     "source": "https://maven.apache.org/download.cgi",
-    "download_url": "https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.zip"
+    "download_url": "https://dlcdn.apache.org/maven/maven-3/3.9.10/binaries/apache-maven-3.9.10-bin.zip"
   },
   {
     "id": "maven-wrapper",
@@ -151,37 +151,37 @@
   {
     "id": "mongo-compass",
     "application": "mongo-compass",
-    "version": "1.46.2",
+    "version": "1.46.3",
     "source": "https://www.mongodb.com/try/download/compass",
-    "download_url": "https://downloads.mongodb.com/compass/mongodb-compass-1.46.2-win32-x64.exe"
+    "download_url": "https://downloads.mongodb.com/compass/mongodb-compass-1.46.3-win32-x64.exe"
   },
   {
     "id": "mongo-compass-zip",
     "application": "mongo-compass-zip",
-    "version": "1.46.2",
+    "version": "1.46.3",
     "source": "https://www.mongodb.com/try/download/compass",
-    "download_url": "https://downloads.mongodb.com/compass/mongodb-compass-1.46.2-win32-x64.zip"
+    "download_url": "https://downloads.mongodb.com/compass/mongodb-compass-1.46.3-win32-x64.zip"
   },
   {
     "id": "mongo-shell",
     "application": "mongo-shell",
-    "version": "2.5.1",
+    "version": "2.5.2",
     "source": "https://www.mongodb.com/try/download/shell",
-    "download_url": "https://downloads.mongodb.com/compass/mongosh-2.5.1-win32-x64.zip"
+    "download_url": "https://downloads.mongodb.com/compass/mongosh-2.5.2-win32-x64.zip"
   },
   {
     "id": "mongo-relational-migrator",
     "application": "mongo-relational-migrator",
-    "version": "1.13.1",
+    "version": "1.13.2",
     "source": "https://www.mongodb.com/try/download/relational-migrator",
-    "download_url": "https://downloads.mongodb.org/migrator/1.13.1/MongoDB%20Relational%20Migrator-1.13.1.msi"
+    "download_url": "https://downloads.mongodb.org/migrator/1.13.2/MongoDB%20Relational%20Migrator-1.13.2.msi"
   },
   {
     "id": "mongo-database-tools",
     "application": "mongo-database-tools",
-    "version": "100.12.0",
+    "version": "100.12.2",
     "source": "https://www.mongodb.com/try/download/database-tools",
-    "download_url": "https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.12.0.zip"
+    "download_url": "https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.12.2.zip"
   },
   {
     "id": "google-chrome-offline-installer",
