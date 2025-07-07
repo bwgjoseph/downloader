@@ -2,7 +2,7 @@
 
 $default_download_dir="./_chrome"
 
-$chromeVersion = "137.0.7151.69"
+$chromeVersion = "138.0.7204.97"
 
 # # For each application
 Get-Content .\chrome-plugins.txt | ForEach-Object {

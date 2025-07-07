@@ -9,23 +9,23 @@
   {
     "id": "helm",
     "application": "helm",
-    "version": "3.17.3",
+    "version": "3.18.3",
     "source": "https://github.com/helm/helm/releases",
-    "download_url": "https://get.helm.sh/helm-v3.17.3-windows-amd64.zip"
+    "download_url": "https://get.helm.sh/helm-v3.18.3-windows-amd64.zip"
   },
   {
     "id": "Idea.IntelliJ.Ultimate",
     "application": "Idea.IntelliJ.Ultimate",
-    "version": "2025.1.2",
+    "version": "2025.1.3",
     "source": "https://www.jetbrains.com/idea/download/",
-    "download_url": "https://download.jetbrains.com/idea/ideaIU-2025.1.2.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIU-2025.1.3.win.zip"
   },
   {
     "id": "Idea.IntelliJ.Community",
     "application": "Idea.IntelliJ.Community",
-    "version": "2025.1.2",
+    "version": "2025.1.3",
     "source": "https://www.jetbrains.com/idea/download/",
-    "download_url": "https://download.jetbrains.com/idea/ideaIC-2025.1.2.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIC-2025.1.3.win.zip"
   },
   {
     "id": "kubectl",
@@ -51,10 +51,10 @@
   {
     "id": "studio3t",
     "application": "studio3t",
-    "version": "2025.8.0",
+    "version": "2025.12.1",
     "source": "https://studio3t.com/download/",
-    "download_url": "https://download.studio3t.com/studio-3t/windows/2025.8.0/studio-3t-x64.zip",
-    "filename": "studio-3t-x64-2025.8.0.zip"
+    "download_url": "https://download.studio3t.com/studio-3t/windows/2025.12.1/studio-3t-x64.zip",
+    "filename": "studio-3t-x64-2025.12.1.zip"
   },
   {
     "id": "jmeter",
@@ -66,9 +66,9 @@
   {
     "id": "gitlab-cli",
     "application": "gitlab-cli",
-    "version": "1.57.0",
+    "version": "1.61.0",
     "source": "https://gitlab.com/gitlab-org/cli/-/releases",
-    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.57.0/downloads/glab_1.57.0_Windows_x86_64.zip"
+    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.61.0/downloads/glab_1.61.0_Windows_x86_64.zip"
   },
   {
     "id": "maven",
@@ -151,23 +151,23 @@
   {
     "id": "mongo-compass",
     "application": "mongo-compass",
-    "version": "1.46.3",
+    "version": "1.46.5",
     "source": "https://www.mongodb.com/try/download/compass",
-    "download_url": "https://downloads.mongodb.com/compass/mongodb-compass-1.46.3-win32-x64.exe"
+    "download_url": "https://downloads.mongodb.com/compass/mongodb-compass-1.46.5-win32-x64.exe"
   },
   {
     "id": "mongo-compass-zip",
     "application": "mongo-compass-zip",
-    "version": "1.46.3",
+    "version": "1.46.5",
     "source": "https://www.mongodb.com/try/download/compass",
-    "download_url": "https://downloads.mongodb.com/compass/mongodb-compass-1.46.3-win32-x64.zip"
+    "download_url": "https://downloads.mongodb.com/compass/mongodb-compass-1.46.5-win32-x64.zip"
   },
   {
     "id": "mongo-shell",
     "application": "mongo-shell",
-    "version": "2.5.2",
+    "version": "2.5.5",
     "source": "https://www.mongodb.com/try/download/shell",
-    "download_url": "https://downloads.mongodb.com/compass/mongosh-2.5.2-win32-x64.zip"
+    "download_url": "https://downloads.mongodb.com/compass/mongosh-2.5.5-win32-x64.zip"
   },
   {
     "id": "mongo-relational-migrator",

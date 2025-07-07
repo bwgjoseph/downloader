@@ -23,6 +23,7 @@ com.jetbrains.packagesearch.intellij-plugin
 com.jetbrains.restClient
 com.jetbrains.sh
 com.mallowigi
+com.mongodb.jbplugin
 com.robohorse.robopojogenerator
 com.virtuslab.graphbuddy
 de.docs_as_co.intellij.plugin.diagramsnet
