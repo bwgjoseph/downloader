@@ -196,5 +196,12 @@
     "version": "-",
     "source": "https://rclone.org/downloads/",
     "download_url": "https://downloads.rclone.org/rclone-current-windows-amd64.zip"
+  },
+  {
+    "id": "lmstudio",
+    "application": "lmstudio",
+    "version": "0.3.17",
+    "source": "https://lmstudio.ai/",
+    "download_url": "https://downloads.rclone.org/rclone-current-windows-amd64.zip"
   }
 ]
