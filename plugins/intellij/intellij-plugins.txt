@@ -26,10 +26,12 @@ com.mallowigi
 com.mongodb.jbplugin
 com.robohorse.robopojogenerator
 com.virtuslab.graphbuddy
+DBN
 de.docs_as_co.intellij.plugin.diagramsnet
 de.platon42.cajon
 dev.openfga.intellijplugin
 google-java-format
+intellij.jupyter
 jd-intellij
 Key%20Promoter%20X
 lechuck.intellij-plugin.task
