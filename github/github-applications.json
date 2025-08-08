@@ -138,5 +138,21 @@
   {
     "repo": "https://github.com/utkuozdemir/pv-migrate/",
     "pattern": "pv-migrate_*_windows_x86_64.zip"
+  },
+  {
+    "repo": "https://github.com/freelensapp/freelens/",
+    "pattern": "Freelens-*-windows-amd64.exe"
+  },
+  {
+    "repo": "https://github.com/grafana/k6-studio/",
+    "pattern": "k6.Studio-*.Setup.exe"
+  },
+  {
+    "repo": "https://github.com/ryanoasis/nerd-fonts/",
+    "pattern": "CascadiaCode.zip"
+  },
+  {
+    "repo": "https://github.com/ryanoasis/nerd-fonts/",
+    "pattern": "CascadiaMono.zip"
   }
 ]
