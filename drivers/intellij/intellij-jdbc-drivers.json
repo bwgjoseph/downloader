@@ -1,0 +1,26 @@
+[
+  {
+    "driver": "duckdb",
+    "version": "1.1.1"
+  },
+  {
+    "driver": "elasticsearch",
+    "version": "7.17.10"
+  },
+  {
+    "driver": "h2",
+    "version": "2.2.220"
+  },
+  {
+    "driver": "mongodb",
+    "version": "1.20"
+  },
+  {
+    "driver": "oracle",
+    "version": "21.5.0.0"
+  },
+  {
+    "driver": "redis",
+    "version": "1.5"
+  }
+]

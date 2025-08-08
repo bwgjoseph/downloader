@@ -26,6 +26,7 @@ tasks:
       - '{{.SHELL}} -Command New-Item -ItemType Directory $TODAY -Force'
       - echo "starting downloads"
       - task: dl-apps
+      - task: dl-intellij-drivers
       - task: dl-gh
       - task: dl-helm
       - task: dl-pw
@@ -42,6 +43,14 @@ tasks:
     cmds:
       - pwsh -File apps-downloads.ps1
       - '{{.SHELL}} -Command Move-Item -Path {{.APP_DL_DIR}} -Destination $WORKING_DIR\\$TODAY'
+  dl-intellij-drivers:
+    platforms: [windows]
+    dir: /drivers/intellij
+    vars:
+      IJD_DL_DIR: $WORKING_DIR\\drivers\\intellij\\_intellij_jdbc_drivers
+    cmds:
+      - pwsh -File drivers-downloads.ps1
+      - '{{.SHELL}} -Command Move-Item -Path {{.IJD_DL_DIR}} -Destination $WORKING_DIR\\$TODAY'
   dl-gh:
     platforms: [windows]
     dir: /github
