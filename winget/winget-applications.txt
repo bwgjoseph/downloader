@@ -7,7 +7,8 @@ Google.Chrome
 hatoo.oha
 HTTPToolKit.HTTPToolKit
 Japplis.Toolbox
-k6.k6
+GrafanaLabs.k6
+GrafanaLabs.k6Studio
 k9s
 KDE.KDiff3
 Kubernetes.minikube
@@ -42,7 +43,6 @@ Python.Python.3.11
 Rclone.Rclone
 suse.RancherDesktop
 Task.Task
-VMware.WorkstationPlayer
 voidtools.Everything
 XP8K1GHCB0F1R2
 Y2Z.Monolith

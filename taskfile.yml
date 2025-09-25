@@ -91,8 +91,8 @@ tasks:
     cmds:
       # - pwsh -File intellij-plugin-downloads.ps1 -version 2024.3.4.1 -build 243.25659.59
       # - '{{.SHELL}} -Command Move-Item -Path {{.IP_DL_DIR}}\\_intellij_plugins_2024.3.4.1 -Destination $WORKING_DIR\\$TODAY'
-      - pwsh -File intellij-plugin-downloads.ps1 -version 2025.1.3 -build 251.26094.121
-      - '{{.SHELL}} -Command Move-Item -Path {{.IP_DL_DIR}}\\_intellij_plugins_2025.1.3 -Destination $WORKING_DIR\\$TODAY'
+      - pwsh -File intellij-plugin-downloads.ps1 -version 2025.2.2 -build 251.26094.121
+      - '{{.SHELL}} -Command Move-Item -Path {{.IP_DL_DIR}}\\_intellij_plugins_2025.2.2 -Destination $WORKING_DIR\\$TODAY'
   dl-vsc:
     platforms: [windows]
     dir: /plugins/vscode

@@ -111,7 +111,8 @@
       "bitnami/vault",
       "bitnami/kafka",
       "bitnami/valkey",
-      "bitnami/postgresql"
+      "bitnami/postgresql",
+      "bitnami/node-exporter"
     ]
   },
   {

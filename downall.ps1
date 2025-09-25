@@ -37,7 +37,9 @@ cd intellij
 # .\intellij-plugin-downloads.ps1 -version 2024.3.2.1 -build 243.23654.153
 # .\intellij-plugin-downloads.ps1 -version 2024.3.4.1 -build 243.25659.59
 # .\intellij-plugin-downloads.ps1 -version 2025.1.1.1 -build 251.25410.129
-.\intellij-plugin-downloads.ps1 -version 2025.1.2 -build 251.26094.121
+# .\intellij-plugin-downloads.ps1 -version 2025.1.2 -build 251.26094.121
+# .\intellij-plugin-downloads.ps1 -version 2025.1.3 -build 251.26927.53
+.\intellij-plugin-downloads.ps1 -version 2025.2.2 -build 252.26199.169
 cd ..
 cd vscode
 .\vscode-plugin-downloads.ps1
