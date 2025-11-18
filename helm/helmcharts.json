@@ -179,5 +179,39 @@
     "charts": [
       "pmint93/metabase"
     ]
+  },
+  {
+    "id": "fider",
+    "helm": "fider",
+    "repo": "https://getfider.github.io/helm/",
+    "charts": [
+      "fider/fider",
+      "fider/postgresql"
+    ]
+  },
+  {
+    "id": "sonarqube",
+    "helm": "sonarqube",
+    "repo": "https://sonarsource.github.io/helm-chart-sonarqube/",
+    "charts": [
+      "sonarqube/sonarqube"
+    ]
+  },
+  {
+    "id": "percona",
+    "helm": "percona",
+    "repo": "https://percona.github.io/percona-helm-charts/",
+    "charts": [
+      "percona/pg-operator"
+    ]
+  },
+  {
+    "id": "debezium",
+    "helm": "debezium",
+    "repo": "https://charts.debezium.io/",
+    "charts": [
+      "debezium/debezium-operator",
+      "debezium/debezium-platform"
+    ]
   }
 ]

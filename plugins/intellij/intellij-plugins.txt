@@ -1,6 +1,7 @@
 appland.appmap
 Batch%20Scripts%20Support
 cn.jxzhang.plugin.json-formatter
+com.chylex.intellij.inspectionlens
 com.dmitryzhelnin.intellij.plugin.gitextensions
 com.github.bric3.excalidraw
 com.github.lppedd.idea-conventional-commit
@@ -14,6 +15,7 @@ com.intellij.jvm.dfa.analysis
 com.intellij.kubernetes
 com.intellij.lang.jsgraphql
 com.intellij.mermaid
+com.intellij.ml.llm
 com.intellij.plugins.vscodekeymap
 com.intellij.spring.batch
 com.intellij.spring.debugger
@@ -23,6 +25,7 @@ com.jetbrains.packagesearch.intellij-plugin
 com.jetbrains.restClient
 com.jetbrains.sh
 com.mallowigi
+com.metalbear.mirrord
 com.mongodb.jbplugin
 com.robohorse.robopojogenerator
 com.virtuslab.graphbuddy
@@ -30,6 +33,7 @@ DBN
 de.docs_as_co.intellij.plugin.diagramsnet
 de.platon42.cajon
 dev.openfga.intellijplugin
+dev.turingcomplete.intellijdevelopertoolsplugins
 google-java-format
 intellij.jupyter
 jd-intellij
