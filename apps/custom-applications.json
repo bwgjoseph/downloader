@@ -44,10 +44,10 @@
   {
     "id": "studio3t",
     "application": "studio3t",
-    "version": "2025.18.0",
+    "version": "2025.22.0",
     "source": "https://studio3t.com/download/",
-    "download_url": "https://download.studio3t.com/studio-3t/windows/2025.18.0/studio-3t-x64.zip",
-    "filename": "studio-3t-x64-2025.18.0.zip"
+    "download_url": "https://download.studio3t.com/studio-3t/windows/2025.22.0/studio-3t-x64.zip",
+    "filename": "studio-3t-x64-2025.22.0.zip"
   },
   {
     "id": "jmeter",
