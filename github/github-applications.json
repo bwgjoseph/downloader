@@ -154,5 +154,13 @@
   {
     "repo": "https://github.com/ryanoasis/nerd-fonts/",
     "pattern": "CascadiaMono.zip"
+  },
+  {
+    "repo": "https://github.com/astral-sh/uv/",
+    "pattern": "uv-x86_64-pc-windows-msvc.zip"
+  },
+  {
+    "repo": "https://github.com/doitintl/kube-no-trouble/",
+    "pattern": "kubent-*-windows-amd64.tar.gz"
   }
 ]
