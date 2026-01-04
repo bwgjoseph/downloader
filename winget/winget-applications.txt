@@ -4,14 +4,15 @@ Git.Git
 GitExtensionsTeam.GitExtensions
 GitHub.GitHubDesktop
 Google.Chrome
+GrafanaLabs.k6
+GrafanaLabs.k6Studio
 hatoo.oha
 HTTPToolKit.HTTPToolKit
 Japplis.Toolbox
-GrafanaLabs.k6
-GrafanaLabs.k6Studio
 k9s
 KDE.KDiff3
 Kubernetes.minikube
+MartiCliment.UniGetUI
 Microsoft.DotNet.DesktopRuntime.6
 Microsoft.DotNet.DesktopRuntime.7
 Microsoft.DotNet.DesktopRuntime.8
