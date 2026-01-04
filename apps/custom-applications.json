@@ -2,37 +2,37 @@
   {
     "id": "FreeFileSync",
     "application": "FreeFileSync",
-    "version": "14.5",
+    "version": "14.6",
     "source": "https://freefilesync.org/download.php",
-    "download_url": "https://freefilesync.org/download/FreeFileSync_14.5_Windows_Setup.exe"
+    "download_url": "https://freefilesync.org/download/FreeFileSync_14.6_Windows_Setup.exe"
   },
   {
     "id": "helm",
     "application": "helm",
-    "version": "4.0.0",
+    "version": "4.0.4",
     "source": "https://github.com/helm/helm/releases",
-    "download_url": "https://get.helm.sh/helm-v4.0.0-windows-amd64.zip"
+    "download_url": "https://get.helm.sh/helm-v4.0.4-windows-amd64.zip"
   },
   {
     "id": "Idea.IntelliJ.Ultimate",
     "application": "Idea.IntelliJ.Ultimate",
-    "version": "2025.2.4",
+    "version": "2025.3.1",
     "source": "https://www.jetbrains.com/idea/download/",
-    "download_url": "https://download.jetbrains.com/idea/ideaIU-2025.2.4.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/ideaIU-2025.3.1.win.zip"
   },
   {
     "id": "kubectl",
     "application": "kubectl",
-    "version": "1.34.0",
+    "version": "1.35.0",
     "source": "https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/",
-    "download_url": "https://dl.k8s.io/release/v1.34.0/bin/windows/amd64/kubectl.exe"
+    "download_url": "https://dl.k8s.io/release/v1.35.0/bin/windows/amd64/kubectl.exe"
   },
   {
     "id": "mobaxterm",
     "application": "mobaxterm",
-    "version": "25.3",
+    "version": "25.4",
     "source": "https://mobaxterm.mobatek.net/download-home-edition.html",
-    "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v25.3.zip"
+    "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v25.4.zip"
   },
   {
     "id": "openssl",
@@ -44,10 +44,10 @@
   {
     "id": "studio3t",
     "application": "studio3t",
-    "version": "2025.22.0",
+    "version": "2025.23.0",
     "source": "https://studio3t.com/download/",
-    "download_url": "https://download.studio3t.com/studio-3t/windows/2025.22.0/studio-3t-x64.zip",
-    "filename": "studio-3t-x64-2025.22.0.zip"
+    "download_url": "https://download.studio3t.com/studio-3t/windows/2025.23.0/studio-3t-x64.zip",
+    "filename": "studio-3t-x64-2025.23.0.zip"
   },
   {
     "id": "jmeter",
@@ -59,16 +59,16 @@
   {
     "id": "gitlab-cli",
     "application": "gitlab-cli",
-    "version": "1.77.0",
+    "version": "1.80.4",
     "source": "https://gitlab.com/gitlab-org/cli/-/releases",
-    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.77.0/downloads/glab_1.77.0_Windows_x86_64.zip"
+    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.80.4/downloads/glab_1.80.4_Windows_x86_64.zip"
   },
   {
     "id": "maven",
     "application": "maven",
-    "version": "3.9.11",
+    "version": "3.9.12",
     "source": "https://maven.apache.org/download.cgi",
-    "download_url": "https://dlcdn.apache.org/maven/maven-3/3.9.11/binaries/apache-maven-3.9.11-bin.zip"
+    "download_url": "https://dlcdn.apache.org/maven/maven-3/3.9.12/binaries/apache-maven-3.9.12-bin.zip"
   },
   {
     "id": "maven-wrapper",
@@ -165,9 +165,9 @@
   {
     "id": "mongo-shell",
     "application": "mongo-shell",
-    "version": "2.5.9",
+    "version": "2.5.10",
     "source": "https://www.mongodb.com/try/download/shell",
-    "download_url": "https://downloads.mongodb.com/compass/mongosh-2.5.9-win32-x64.zip"
+    "download_url": "https://downloads.mongodb.com/compass/mongosh-2.5.10-win32-x64.zip"
   },
   {
     "id": "mongo-relational-migrator",
@@ -179,9 +179,9 @@
   {
     "id": "mongo-database-tools",
     "application": "mongo-database-tools",
-    "version": "100.13.0",
+    "version": "100.14.0",
     "source": "https://www.mongodb.com/try/download/database-tools",
-    "download_url": "https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.13.0.zip"
+    "download_url": "https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.14.0.zip"
   },
   {
     "id": "google-chrome-offline-installer",
@@ -200,22 +200,15 @@
   {
     "id": "lmstudio",
     "application": "lmstudio",
-    "version": "0.3.31",
+    "version": "0.3.36",
     "source": "https://lmstudio.ai/",
-    "download_url": "https://installers.lmstudio.ai/win32/x64/0.3.31-7/LM-Studio-0.3.31-7-x64.exe"
+    "download_url": "https://installers.lmstudio.ai/win32/x64/0.3.36-1/LM-Studio-0.3.36-1-x64.exe"
   },
   {
     "id": "libreoffice",
     "application": "libreoffice",
-    "version": "25.8.3",
+    "version": "25.8.4",
     "source": "https://www.libreoffice.org/download/download-libreoffice/",
-    "download_url": "https://www.libreoffice.org/donate/dl/win-x86_64/25.8.3/en-US/LibreOffice_25.8.3_Win_x86-64.msi"
-  },
-  {
-    "id": "onlyoffice",
-    "application": "onlyoffice",
-    "version": "9.2.1",
-    "source": "https://www.onlyoffice.com/download-desktop",
-    "download_url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/latest/download/DesktopEditors_x64.exe"
+    "download_url": "https://www.libreoffice.org/donate/dl/win-x86_64/25.8.4/en-US/LibreOffice_25.8.4_Win_x86-64.msi"
   }
 ]

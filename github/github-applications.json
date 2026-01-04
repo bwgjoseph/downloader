@@ -162,5 +162,13 @@
   {
     "repo": "https://github.com/doitintl/kube-no-trouble/",
     "pattern": "kubent-*-windows-amd64.tar.gz"
+  },
+  {
+    "repo": "https://github.com/ONLYOFFICE/DesktopEditors/",
+    "pattern": "DesktopEditors_x64.exe"
+  },
+  {
+    "repo": "https://github.com/jreleaser/jreleaser/",
+    "pattern": "jreleaser-standalone-*-windows-x86_64.zip"
   }
 ]
