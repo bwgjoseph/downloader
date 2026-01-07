@@ -61,7 +61,7 @@
     "application": "gitlab-cli",
     "version": "1.80.4",
     "source": "https://gitlab.com/gitlab-org/cli/-/releases",
-    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.80.4/downloads/glab_1.80.4_Windows_x86_64.zip"
+    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.80.4/downloads/glab_1.80.4_windows_amd64.zip"
   },
   {
     "id": "maven",
@@ -209,6 +209,6 @@
     "application": "libreoffice",
     "version": "25.8.4",
     "source": "https://www.libreoffice.org/download/download-libreoffice/",
-    "download_url": "https://www.libreoffice.org/donate/dl/win-x86_64/25.8.4/en-US/LibreOffice_25.8.4_Win_x86-64.msi"
+    "download_url": "https://download.documentfoundation.org/libreoffice/stable/25.8.4/win/x86_64/LibreOffice_25.8.4_Win_x86-64.msi"
   }
 ]

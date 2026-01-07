@@ -33,7 +33,7 @@
   },
   {
     "repo": "https://github.com/microsoft/terminal/",
-    "pattern": "*.WindowsTerminalPreview*.msixbundle"
+    "pattern": "Microsoft.WindowsTerminalPreview_*.msixbundle"
   },
   {
     "repo": "https://github.com/mike-engel/jwt-cli/",
@@ -60,20 +60,12 @@
     "pattern": "*DevToys*.msixbundle"
   },
   {
-    "repo": "https://github.com/vmware-tanzu/octant/",
-    "pattern": "*Setup.*.exe"
-  },
-  {
     "repo": "https://github.com/wagoodman/dive/",
     "pattern": "*windows*amd64.zip"
   },
   {
     "repo": "https://github.com/open-policy-agent/opa/",
     "pattern": "*windows*.exe"
-  },
-  {
-    "repo": "https://github.com/MuhammedKalkan/OpenLens/",
-    "pattern": "*.Setup*.exe"
   },
   {
     "repo": "https://github.com/JanDeDobbeleer/oh-my-posh/",
@@ -170,5 +162,13 @@
   {
     "repo": "https://github.com/jreleaser/jreleaser/",
     "pattern": "jreleaser-standalone-*-windows-x86_64.zip"
+  },
+  {
+    "repo": "https://github.com/microsoft/winget-cli/",
+    "pattern": "DesktopAppInstaller_Dependencies.zip"
+  },
+  {
+    "repo": "https://github.com/microsoft/winget-cli/",
+    "pattern": "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
   }
 ]

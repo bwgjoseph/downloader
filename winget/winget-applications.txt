@@ -1,5 +1,6 @@
 7zip.7zip
 Docker.DockerDesktop
+DuckDB.cli
 Git.Git
 GitExtensionsTeam.GitExtensions
 GitHub.GitHubDesktop
@@ -13,12 +14,8 @@ k9s
 KDE.KDiff3
 Kubernetes.minikube
 MartiCliment.UniGetUI
-Microsoft.DotNet.DesktopRuntime.6
-Microsoft.DotNet.DesktopRuntime.7
 Microsoft.DotNet.DesktopRuntime.8
 Microsoft.DotNet.DesktopRuntime.9
-Microsoft.DotNet.SDK.6
-Microsoft.DotNet.SDK.7
 Microsoft.DotNet.SDK.8
 Microsoft.DotNet.SDK.9
 Microsoft.Edge
@@ -30,9 +27,6 @@ Microsoft.VisualStudioCode
 Microsoft.WindowsTerminal
 Microsoft.WindowsTerminal.Preview
 MongoDB.Compass.Full
-MongoDB.DatabaseTools
-MongoDB.Server
-MongoDB.Shell
 Mozilla.Firefox
 NickeManarin.ScreenToGif
 Notepad++.Notepad++
@@ -40,7 +34,7 @@ OpenJS.NodeJS.LTS
 Oracle.VirtualBox
 PatrikLaszlo.P3XRedisUI
 PuTTY.PuTTY
-Python.Python.3.11
+Python.Python.3.14
 Rclone.Rclone
 suse.RancherDesktop
 Task.Task

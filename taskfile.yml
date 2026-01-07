@@ -34,6 +34,7 @@ tasks:
       - task: dl-ip
       - task: dl-vsc
       - task: dl-wg
+      - task: dl-duck
       - echo "download completed - $TODAY"
   dl-apps:
     platforms: [windows]
@@ -83,6 +84,14 @@ tasks:
     cmds:
       - pwsh -File chrome-plugin-downloads.ps1
       - '{{.SHELL}} -Command Move-Item -Path {{.CHROME_DL_DIR}} -Destination $WORKING_DIR\\$TODAY'
+  dl-duck:
+    platforms: [windows]
+    dir: /plugins/duckdb
+    vars:
+      IP_DL_DIR: $WORKING_DIR\\plugins\\duckdb
+    cmds:
+      - pwsh -File duckdb-extensions-downloads.ps1 -version 1.4.3
+      - '{{.SHELL}} -Command Move-Item -Path {{.IP_DL_DIR}}\\_duckdb_extensions_1.4.3 -Destination $WORKING_DIR\\$TODAY'
   dl-ip:
     platforms: [windows]
     dir: /plugins/intellij

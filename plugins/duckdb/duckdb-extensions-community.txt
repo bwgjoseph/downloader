@@ -1,0 +1,5 @@
+cache_httpfs
+curl_httpfs
+nanodbc
+mongo
+redis
