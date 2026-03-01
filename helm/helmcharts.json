@@ -213,5 +213,22 @@
       "debezium/debezium-operator",
       "debezium/debezium-platform"
     ]
+  },
+  {
+    "id": "cnpg",
+    "helm": "cnpg",
+    "repo": "https://cloudnative-pg.github.io/charts/",
+    "charts": [
+      "cnpg/cluster",
+      "cnpg/cloudnative-pg"
+    ]
+  },
+  {
+    "id": "gitlab",
+    "helm": "gitlab",
+    "repo": "https://charts.gitlab.io/",
+    "charts": [
+      "gitlab/gitlab-runner"
+    ]
   }
 ]
