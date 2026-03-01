@@ -4,10 +4,6 @@
     "pattern": "*win32.x86_64*.zip"
   },
   {
-    "repo": "https://github.com/adoptium/temurin17-binaries/",
-    "pattern": "*jdk_x64_windows*.zip"
-  },
-  {
     "repo": "https://github.com/adoptium/temurin21-binaries/",
     "pattern": "*jdk_x64_windows*.zip"
   },
@@ -16,20 +12,12 @@
     "pattern": "*jdk_x64_windows*.zip"
   },
   {
-    "repo": "https://github.com/Eugeny/tabby/",
-    "pattern": "*portable-x64*.zip"
-  },
-  {
     "repo": "https://github.com/GoogleContainerTools/jib/",
     "pattern": "*jre*.zip"
   },
   {
     "repo": "https://github.com/kubernetes-sigs/kustomize/",
     "pattern": "*windows_amd64*.zip"
-  },
-  {
-    "repo": "https://github.com/mattermost/desktop/",
-    "pattern": "*desktop*x64.msi"
   },
   {
     "repo": "https://github.com/microsoft/terminal/",
@@ -154,10 +142,6 @@
   {
     "repo": "https://github.com/doitintl/kube-no-trouble/",
     "pattern": "kubent-*-windows-amd64.tar.gz"
-  },
-  {
-    "repo": "https://github.com/ONLYOFFICE/DesktopEditors/",
-    "pattern": "DesktopEditors_x64.exe"
   },
   {
     "repo": "https://github.com/jreleaser/jreleaser/",
