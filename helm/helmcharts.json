@@ -4,22 +4,36 @@
     "helm": "grafana",
     "repo": "https://grafana.github.io/helm-charts",
     "charts": [
-      "grafana/grafana",
-      "grafana/grafana-agent",
-      "grafana/grafana-agent-operator",
       "grafana/alloy",
       "grafana/fluent-bit",
+      "grafana/grafana-agent-operator",
+      "grafana/grafana-agent",
+      "grafana/grafana-mcp",
+      "grafana/grafana",
       "grafana/k6-operator",
       "grafana/k8s-monitoring",
       "grafana/lgtm-distributed",
-      "grafana/loki",
       "grafana/loki-distributed",
       "grafana/loki-stack",
+      "grafana/loki",
       "grafana/mimir-distributed",
       "grafana/promtail",
+      "grafana/pyroscope",
+      "grafana/pyroscope-monitoring",
       "grafana/tempo",
       "grafana/tempo-distributed",
       "prometheus-community/kube-prometheus-stack"
+    ]
+  },
+  {
+    "id": "grafana-community",
+    "helm": "grafana-community",
+    "repo": "https://grafana-community.github.io/helm-charts",
+    "charts": [
+      "grafana-community/grafana",
+      "grafana-community/grafana-mcp",
+      "grafana-community/tempo",
+      "grafana-community/tempo-distributed"
     ]
   },
   {
@@ -29,14 +43,15 @@
     "charts": [
       "prometheus-community/kube-prometheus-stack",
       "prometheus-community/kube-state-metrics",
-      "prometheus-community/prometheus",
       "prometheus-community/prometheus-blackbox-exporter",
       "prometheus-community/prometheus-elasticsearch-exporter",
       "prometheus-community/prometheus-kafka-exporter",
       "prometheus-community/prometheus-mongodb-exporter",
       "prometheus-community/prometheus-node-exporter",
+      "prometheus-community/prometheus-postgres-exporter",
       "prometheus-community/prometheus-redis-exporter",
-      "prometheus-community/prometheus-sql-exporter"
+      "prometheus-community/prometheus-sql-exporter",
+      "prometheus-community/prometheus"
     ]
   },
   {
