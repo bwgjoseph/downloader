@@ -5,7 +5,7 @@ Write-Host "Starting..."
 
 # Set to a default version if not provided
 if ([String]::IsNullOrWhiteSpace($version)) {
-    $version = "1.4.3"
+    $version = "1.5.2"
 }
 
 $default_download_dir="./_duckdb_extensions_$version"

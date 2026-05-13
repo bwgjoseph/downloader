@@ -1,6 +1,7 @@
 appland.appmap
 Batch%20Scripts%20Support
 cn.jxzhang.plugin.json-formatter
+co.elastic.esql-idea-plugin
 co.tula.MermaidChart
 com.chylex.intellij.inspectionlens
 com.dmitryzhelnin.intellij.plugin.gitextensions

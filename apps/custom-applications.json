@@ -2,149 +2,43 @@
   {
     "id": "FreeFileSync",
     "application": "FreeFileSync",
-    "version": "14.8",
+    "version": "14.9",
+    "check_config": {
+      "type": "manual"
+    },
     "source": "https://freefilesync.org/download.php",
-    "download_url": "https://freefilesync.org/download/FreeFileSync_14.8_Windows_Setup.exe"
-  },
-  {
-    "id": "helm",
-    "application": "helm",
-    "version": "4.1.1",
-    "source": "https://github.com/helm/helm/releases",
-    "download_url": "https://get.helm.sh/helm-v4.1.1-windows-amd64.zip"
+    "download_url": "https://freefilesync.org/download/FreeFileSync_14.9_Windows_Setup.exe"
   },
   {
     "id": "Idea.IntelliJ",
     "application": "Idea.IntelliJ",
-    "version": "2025.3.3",
+    "version": "2026.1.1",
+    "check_config": {
+      "type": "jetbrains",
+      "code": "IIU"
+    },
+    "url_template": "https://download.jetbrains.com/idea/idea-{version}.win.zip",
     "source": "https://www.jetbrains.com/idea/download/",
-    "download_url": "https://download.jetbrains.com/idea/idea-2025.3.3.win.zip"
-  },
-  {
-    "id": "kubectl",
-    "application": "kubectl",
-    "version": "1.35.0",
-    "source": "https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/",
-    "download_url": "https://dl.k8s.io/release/v1.35.0/bin/windows/amd64/kubectl.exe"
-  },
-  {
-    "id": "mobaxterm",
-    "application": "mobaxterm",
-    "version": "26.0",
-    "source": "https://mobaxterm.mobatek.net/download-home-edition.html",
-    "download_url": "https://download.mobatek.net/2212022060563542/MobaXterm_Portable_v26.0.zip"
-  },
-  {
-    "id": "openssl",
-    "application": "openssl",
-    "version": "3.6.1",
-    "source": "https://slproweb.com/products/Win32OpenSSL.html",
-    "download_url": "https://slproweb.com/download/Win64OpenSSL-3_6_1.exe"
-  },
-  {
-    "id": "studio3t",
-    "application": "studio3t",
-    "version": "2025.23.0",
-    "source": "https://studio3t.com/download/",
-    "download_url": "https://download.studio3t.com/studio-3t/windows/2025.23.0/studio-3t-x64.zip",
-    "filename": "studio-3t-x64-2025.23.0.zip"
-  },
-  {
-    "id": "jmeter",
-    "application": "jmeter",
-    "version": "5.6.3",
-    "source": "https://jmeter.apache.org/download_jmeter.cgi",
-    "download_url": "https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.6.3.zip"
-  },
-  {
-    "id": "gitlab-cli",
-    "application": "gitlab-cli",
-    "version": "1.86.0",
-    "source": "https://gitlab.com/gitlab-org/cli/-/releases",
-    "download_url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.86.0/downloads/glab_1.86.0_windows_amd64.zip"
-  },
-  {
-    "id": "maven",
-    "application": "maven",
-    "version": "3.9.12",
-    "source": "https://maven.apache.org/download.cgi",
-    "download_url": "https://dlcdn.apache.org/maven/maven-3/3.9.12/binaries/apache-maven-3.9.12-bin.zip"
-  },
-  {
-    "id": "maven-wrapper",
-    "application": "maven-wrapper",
-    "version": "3.3.4",
-    "source": "https://maven.apache.org/wrapper/download.cgi",
-    "download_url": "https://repo.maven.apache.org/maven2/org/apache/maven/wrapper/maven-wrapper/3.3.4/maven-wrapper-3.3.4.jar"
-  },
-  {
-    "id": "maven-wrapper-src",
-    "application": "maven-wrapper-src",
-    "version": "3.3.4",
-    "source": "https://maven.apache.org/wrapper/download.cgi",
-    "download_url": "https://dlcdn.apache.org/maven/wrapper/maven-wrapper-3.3.4-source-release.zip"
-  },
-  {
-    "id": "maven-wrapper-bin",
-    "application": "maven-wrapper-bin",
-    "version": "3.3.4",
-    "source": "https://repo1.maven.org/maven2/org/apache/maven/wrapper/maven-wrapper-distribution/",
-    "download_url": "https://repo1.maven.org/maven2/org/apache/maven/wrapper/maven-wrapper-distribution/3.3.4/maven-wrapper-distribution-3.3.4-bin.zip"
-  },
-  {
-    "id": "maven-wrapper-only-script",
-    "application": "maven-wrapper-only-script",
-    "version": "3.3.4",
-    "source": "https://repo1.maven.org/maven2/org/apache/maven/wrapper/maven-wrapper-distribution/",
-    "download_url": "https://repo1.maven.org/maven2/org/apache/maven/wrapper/maven-wrapper-distribution/3.3.4/maven-wrapper-distribution-3.3.4-only-script.zip"
+    "download_url": "https://download.jetbrains.com/idea/idea-2026.1.1.win.zip"
   },
   {
     "id": "http-client-cli",
     "application": "http-client-cli",
     "version": "2024.2.0.2",
+    "check_config": {
+      "type": "manual"
+    },
+    "filename": "intellij-http-client.zip",
     "source": "https://www.jetbrains.com/help/idea/http-client-cli.html",
-    "download_url": "https://jb.gg/ijhttp/latest",
-    "filename": "intellij-http-client.zip"
-  },
-  {
-    "id": "oracle-jdbc-driver",
-    "application": "oracle-jdbc-driver",
-    "version": "8",
-    "source": "https://www.oracle.com/sg/database/technologies/appdev/jdbc-downloads.html",
-    "download_url": "https://download.oracle.com/otn-pub/otn_software/jdbc/232-DeveloperRel/ojdbc8.jar"
-  },
-  {
-    "id": "oracle-jdbc-driver",
-    "application": "oracle-jdbc-driver",
-    "version": "11",
-    "source": "https://www.oracle.com/sg/database/technologies/appdev/jdbc-downloads.html",
-    "download_url": "https://download.oracle.com/otn-pub/otn_software/jdbc/232-DeveloperRel/ojdbc11.jar"
-  },
-  {
-    "id": "testcontainers-desktop-apps",
-    "application": "testcontainers-desktop-apps",
-    "version": "",
-    "source": "https://testcontainers.com/desktop/#windows",
-    "download_url": "https://app.testcontainers.cloud/download/testcontainers-desktop_windows_x86-64.msi"
-  },
-  {
-    "id": "minio-mc",
-    "application": "minio-mc",
-    "version": "",
-    "source": "https://github.com/minio/mc",
-    "download_url": "https://dl.min.io/client/mc/release/windows-amd64/mc.exe"
-  },
-  {
-    "id": "sqlcl",
-    "application": "sqlcl",
-    "version": "",
-    "source": "https://github.com/gvenzl/oracle-tools/blob/main/sqlcl/sql",
-    "download_url": "https://download.oracle.com/otn_software/java/sqldeveloper/sqlcl-latest.zip"
+    "download_url": "https://jb.gg/ijhttp/latest"
   },
   {
     "id": "kadeck",
     "application": "kadeck",
-    "version": "",
+    "version": "unknown",
+    "check_config": {
+      "type": "manual"
+    },
     "source": "https://www.kadeck.com/get-kadeck",
     "download_url": "https://download.xeotek.io/professional/win.zip?api_key=xpGiDIONLVAr02Dpvq2348XVLIiWNAvz2u4ByY0BBLF2B1WvqksfH5&license=kadep-mtywn-tg4nt-e0nza1mc1ilmj1awnrl7976326488.0219145"
   },
@@ -152,77 +46,140 @@
     "id": "kafka",
     "application": "kafka-cli",
     "version": "4.2.0",
+    "check_config": {
+      "type": "github_release",
+      "repo": "apache/kafka"
+    },
+    "url_template": "https://downloads.apache.org/kafka/{version}/kafka-{version}-src.tgz",
     "source": "https://kafka.apache.org/downloads",
     "download_url": "https://downloads.apache.org/kafka/4.2.0/kafka-4.2.0-src.tgz"
   },
   {
-    "id": "mongo-compass",
-    "application": "mongo-compass",
-    "version": "1.49.2",
-    "source": "https://www.mongodb.com/try/download/compass",
-    "download_url": "https://downloads.mongodb.com/compass/mongodb-compass-1.49.2-win32-x64.exe"
+    "id": "maven",
+    "application": "maven",
+    "version": "3.9.15",
+    "check_config": {
+      "type": "github_release",
+      "repo": "apache/maven"
+    },
+    "url_template": "https://dlcdn.apache.org/maven/maven-3/{version}/binaries/apache-maven-{version}-bin.zip",
+    "source": "https://maven.apache.org/download.cgi",
+    "download_url": "https://dlcdn.apache.org/maven/maven-3/3.9.15/binaries/apache-maven-3.9.15-bin.zip"
   },
   {
-    "id": "mongo-compass-readonly",
-    "application": "mongo-compass-readonly",
-    "version": "1.49.2",
-    "source": "https://www.mongodb.com/try/download/compass",
-    "download_url": "https://downloads.mongodb.com/compass/mongodb-compass-readonly-1.49.2-win32-x64.exe"
+    "id": "maven-wrapper",
+    "application": "maven-wrapper",
+    "version": "3.3.4",
+    "check_config": {
+      "type": "manual"
+    },
+    "source": "https://maven.apache.org/wrapper/download.cgi",
+    "download_url": "https://repo.maven.apache.org/maven2/org/apache/maven/wrapper/maven-wrapper/3.3.4/maven-wrapper-3.3.4.jar"
+  },
+  {
+    "id": "maven-wrapper-bin",
+    "application": "maven-wrapper-bin",
+    "version": "3.3.4",
+    "check_config": {
+      "type": "manual"
+    },
+    "source": "https://repo1.maven.org/maven2/org/apache/maven/wrapper/maven-wrapper-distribution/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/maven/wrapper/maven-wrapper-distribution/3.3.4/maven-wrapper-distribution-3.3.4-bin.zip"
+  },
+  {
+    "id": "maven-wrapper-only-script",
+    "application": "maven-wrapper-only-script",
+    "version": "3.3.4",
+    "check_config": {
+      "type": "manual"
+    },
+    "source": "https://repo1.maven.org/maven2/org/apache/maven/wrapper/maven-wrapper-distribution/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/maven/wrapper/maven-wrapper-distribution/3.3.4/maven-wrapper-distribution-3.3.4-only-script.zip"
+  },
+  {
+    "id": "maven-wrapper-src",
+    "application": "maven-wrapper-src",
+    "version": "3.3.4",
+    "check_config": {
+      "type": "manual"
+    },
+    "source": "https://maven.apache.org/wrapper/download.cgi",
+    "download_url": "https://dlcdn.apache.org/maven/wrapper/maven-wrapper-3.3.4-source-release.zip"
   },
   {
     "id": "mongo-compass-zip",
     "application": "mongo-compass-zip",
-    "version": "1.49.2",
+    "version": "1.49.7.0",
+    "check_config": {
+      "type": "winget",
+      "id": "MongoDB.Compass.Full"
+    },
+    "url_template": "https://downloads.mongodb.com/compass/mongodb-compass-{version}-win32-x64.zip",
     "source": "https://www.mongodb.com/try/download/compass",
-    "download_url": "https://downloads.mongodb.com/compass/mongodb-compass-1.49.2-win32-x64.zip"
-  },
-  {
-    "id": "mongo-shell",
-    "application": "mongo-shell",
-    "version": "2.7.0",
-    "source": "https://www.mongodb.com/try/download/shell",
-    "download_url": "https://downloads.mongodb.com/compass/mongosh-2.7.0-win32-x64.zip"
-  },
-  {
-    "id": "mongo-relational-migrator",
-    "application": "mongo-relational-migrator",
-    "version": "1.15.3",
-    "source": "https://www.mongodb.com/try/download/relational-migrator",
-    "download_url": "https://downloads.mongodb.org/migrator/1.15.3/MongoDB%20Relational%20Migrator-1.15.3.msi"
+    "download_url": "https://downloads.mongodb.com/compass/mongodb-compass-1.49.7.0-win32-x64.zip"
   },
   {
     "id": "mongo-database-tools",
     "application": "mongo-database-tools",
-    "version": "100.14.1",
+    "version": "100.17.0",
+    "check_config": {
+      "type": "github_release",
+      "repo": "mongodb/mongo-tools"
+    },
+    "url_template": "https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-{version}.zip",
     "source": "https://www.mongodb.com/try/download/database-tools",
-    "download_url": "https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.14.1.zip"
+    "download_url": "https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.17.0.zip"
   },
   {
-    "id": "google-chrome-offline-installer",
-    "application": "google-chrome-offline-installer",
-    "version": "-",
-    "source": "https://stackoverflow.com/questions/73154341/link-that-will-download-the-latest-msi-installer-of-google-chrome",
-    "download_url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
+    "id": "mongo-relational-migrator",
+    "application": "mongo-relational-migrator",
+    "version": "1.16.2",
+    "check_config": {
+      "type": "manual"
+    },
+    "source": "https://www.mongodb.com/try/download/relational-migrator",
+    "download_url": "https://downloads.mongodb.org/migrator/1.16.2/MongoDB%20Relational%20Migrator-1.16.2.msi"
   },
   {
-    "id": "rclone",
-    "application": "rclone",
-    "version": "-",
-    "source": "https://rclone.org/downloads/",
-    "download_url": "https://downloads.rclone.org/rclone-current-windows-amd64.zip"
+    "id": "mongo-shell",
+    "application": "mongo-shell",
+    "version": "2.8.3",
+    "check_config": {
+      "type": "github_release",
+      "repo": "mongodb-js/mongosh"
+    },
+    "url_template": "https://downloads.mongodb.com/compass/mongosh-{version}-win32-x64.zip",
+    "source": "https://www.mongodb.com/try/download/shell",
+    "download_url": "https://downloads.mongodb.com/compass/mongosh-2.8.3-win32-x64.zip"
   },
   {
-    "id": "lmstudio",
-    "application": "lmstudio",
-    "version": "0.4.6",
-    "source": "https://lmstudio.ai/",
-    "download_url": "https://installers.lmstudio.ai/win32/x64/0.4.6-1/LM-Studio-0.4.6-1-x64.exe"
+    "id": "openssl",
+    "application": "openssl",
+    "version": "4.0.0",
+    "check_config": {
+      "type": "manual"
+    },
+    "source": "https://slproweb.com/products/Win32OpenSSL.html",
+    "download_url": "https://slproweb.com/download/Win64OpenSSL-4_0_0.exe"
   },
   {
-    "id": "libreoffice",
-    "application": "libreoffice",
-    "version": "26.2.1",
-    "source": "https://www.libreoffice.org/download/download-libreoffice/",
-    "download_url": "https://download.documentfoundation.org/libreoffice/stable/26.2.1/win/x86_64/LibreOffice_26.2.1_Win_x86-64.msi"
+    "id": "oracle-jdbc-driver-11",
+    "application": "oracle-jdbc-driver",
+    "version": "11",
+    "check_config": {
+      "type": "manual"
+    },
+    "source": "https://www.oracle.com/sg/database/technologies/appdev/jdbc-downloads.html",
+    "download_url": "https://download.oracle.com/otn-pub/otn_software/jdbc/232-DeveloperRel/ojdbc11.jar"
+  },
+  {
+    "id": "oracle-jdbc-driver-8",
+    "application": "oracle-jdbc-driver",
+    "version": "8",
+    "check_config": {
+      "type": "manual"
+    },
+    "source": "https://www.oracle.com/sg/database/technologies/appdev/jdbc-downloads.html",
+    "download_url": "https://download.oracle.com/otn-pub/otn_software/jdbc/232-DeveloperRel/ojdbc8.jar"
   }
 ]

@@ -26,6 +26,11 @@ Get-Content .\winget-applications.txt | ForEach-Object {
     $version=$manifest | Select-String -Pattern $extract_version | Select-Object -ExpandProperty Matches | Select-Object -ExpandProperty Value | ForEach-Object Trim
     $url=$manifest | Select-String -Pattern $extract_url | Select-Object -ExpandProperty Matches | Select-Object -ExpandProperty Value | ForEach-Object Trim
 
+    if (-not $url) {
+        Write-Warning "Could not find download URL for $application. Skipping..."
+        continue
+    }
+
     # what we can do with the json is to use it for the next run where
     # we don't download version that was not updated to save bandwidth and unnecessary downloads
 
@@ -43,7 +48,7 @@ Get-Content .\winget-applications.txt | ForEach-Object {
     # see https://daniel.haxx.se/blog/2020/09/10/store-the-curl-output-over-there
     # --create-dirs: if not exist
     # --silent: do not show progress
-    curl -L $url -O -J --output-dir $default_download_dir --create-dirs --silent
+    curl.exe -L $url -O -J --output-dir $default_download_dir --create-dirs --silent
 }
 
 # convert the final result to json file
