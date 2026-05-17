@@ -81,7 +81,7 @@
   },
   {
     "repo": "https://github.com/dbeaver/dbeaver/",
-    "pattern": "dbeaver-ce*x86_64-setup.exe"
+    "pattern": "dbeaver-ce-*-windows-x86_64.exe"
   },
   {
     "repo": "https://github.com/usebruno/bruno/",

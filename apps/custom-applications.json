@@ -12,14 +12,14 @@
   {
     "id": "Idea.IntelliJ",
     "application": "Idea.IntelliJ",
-    "version": "2026.1.1",
+    "version": "2026.1.2",
     "check_config": {
       "type": "jetbrains",
       "code": "IIU"
     },
     "url_template": "https://download.jetbrains.com/idea/idea-{version}.win.zip",
     "source": "https://www.jetbrains.com/idea/download/",
-    "download_url": "https://download.jetbrains.com/idea/idea-2026.1.1.win.zip"
+    "download_url": "https://download.jetbrains.com/idea/idea-2026.1.2.win.zip"
   },
   {
     "id": "http-client-cli",

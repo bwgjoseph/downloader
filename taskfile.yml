@@ -77,7 +77,7 @@ tasks:
   dl-ip:
     dir: plugins/intellij
     cmds:
-      - '{{.SHELL}} -ExecutionPolicy Bypass -File intellij-plugin-downloads.ps1 -version 2026.1.1 -build 261.23567.138 -DestDir "{{.WORKING_DIR}}\{{.TODAY}}\plugins\intellij\_intellij_plugins_2026.1.1"'
+      - '{{.SHELL}} -ExecutionPolicy Bypass -File intellij-plugin-downloads.ps1 -version 2026.1.2 -build 261.24374.151 -DestDir "{{.WORKING_DIR}}\{{.TODAY}}\plugins\intellij\_intellij_plugins_2026.1.2"'
 
   dl-wg:
     dir: winget
