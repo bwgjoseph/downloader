@@ -158,5 +158,21 @@
   {
     "repo": "https://github.com/atilladeniz/Kubeli/",
     "pattern": "Kubeli_*_x64-setup.exe"
+  },
+  {
+    "repo": "https://github.com/open-pencil/open-pencil/",
+    "pattern": "OpenPencil_*_x64-setup.exe"
+  },
+  {
+    "repo": "https://github.com/skyhook-io/radar/",
+    "pattern": "radar-desktop_*_windows_amd64.zip"
+  },
+  {
+    "repo": "https://github.com/skyhook-io/radar/",
+    "pattern": "radar_*_windows_amd64.zip"
+  },
+  {
+    "repo": "https://github.com/borgbase/vykar/",
+    "pattern": "vykar-*-x86_64-pc-windows-msvc.zip"
   }
 ]

@@ -19,7 +19,6 @@ Japplis.Toolbox
 k9s
 KDE.KDiff3
 Kubernetes.kubectl
-Kubernetes.minikube
 Devolutions.UniGetUI
 Microsoft.DotNet.DesktopRuntime.8
 Microsoft.DotNet.DesktopRuntime.9
@@ -30,20 +29,15 @@ Microsoft.EdgeWebView2Runtime
 Microsoft.PowerShell
 Microsoft.PowerToys
 Microsoft.VCRedist.2015+.x64
-Microsoft.VisualStudioCode
 Microsoft.WindowsTerminal
 Microsoft.WindowsTerminal.Preview
 MinIO.Client
 Mobatek.MobaXterm
-MongoDB.Compass.Full
-MongoDB.Compass.Readonly
 Mozilla.Firefox
 NickeManarin.ScreenToGif
 Notepad++.Notepad++
 OpenJS.NodeJS.LTS
 Oracle.SQLcl
-Oracle.VirtualBox
-PatrikLaszlo.P3XRedisUI
 PuTTY.PuTTY
 Python.Python.3.14
 Rclone.Rclone
@@ -52,4 +46,3 @@ Task.Task
 TheDocumentFoundation.LibreOffice
 voidtools.Everything
 XP8K1GHCB0F1R2
-Y2Z.Monolith
