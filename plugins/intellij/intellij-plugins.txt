@@ -3,12 +3,15 @@ Batch%20Scripts%20Support
 cn.jxzhang.plugin.json-formatter
 co.elastic.esql-idea-plugin
 co.tula.MermaidChart
+com.asyncapi.plugin.idea
 com.chylex.intellij.inspectionlens
 com.dmitryzhelnin.intellij.plugin.gitextensions
+com.embabel.agent.intellij-plugin
 com.github.blarc.gitlab-template-lint-plugin
 com.github.bric3.excalidraw
 com.github.deeepamin.gitlabciaid
 com.github.lppedd.idea-conventional-commit
+com.github.prashant.dependencyscout
 com.gitlab.plugin
 com.gradle.develocity.ide
 com.haulmont.jpab
@@ -19,13 +22,16 @@ com.intellij.bigdatatools.rfs
 com.intellij.jvm.dfa.analysis
 com.intellij.kubernetes
 com.intellij.lang.jsgraphql
+com.intellij.mcpServer
 com.intellij.mermaid
 com.intellij.ml.llm
+com.intellij.notebooks.core
 com.intellij.plugins.vscodekeymap
 com.intellij.spring.batch
 com.intellij.spring.debugger
 com.intellij.spring.graphql
 com.intellij.wiremock
+com.jetbrains.opentelemetry
 com.jetbrains.packagesearch.intellij-plugin
 com.jetbrains.restClient
 com.jetbrains.sh
@@ -38,9 +44,11 @@ com.virtuslab.graphbuddy
 DBN
 de.docs_as_co.intellij.plugin.diagramsnet
 de.platon42.cajon
+dev.jbang.intellij.JBangPlugin
 dev.openfga.intellijplugin
 dev.turingcomplete.intellijdevelopertoolsplugins
 Error-prone plugin
+Git Scope
 google-java-format
 intellij.bigdatatools.awsBase
 intellij.bigdatatools.coreUi

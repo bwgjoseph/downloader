@@ -12,7 +12,6 @@
       "grafana/k8s-monitoring",
       "grafana/lgtm-distributed",
       "grafana/mimir-distributed",
-      "grafana/promtail",
       "grafana/pyroscope",
       "grafana/pyroscope-monitoring"
     ]
@@ -48,32 +47,6 @@
     ]
   },
   {
-    "id": "minio",
-    "helm": "minio",
-    "repo": "https://charts.min.io",
-    "charts": [
-      "minio/minio"
-    ],
-    "url": "https://github.com/minio/minio/tree/master/helm/minio"
-  },
-  {
-    "id": "minio-operator",
-    "helm": "minio-operator",
-    "repo": "https://operator.min.io",
-    "charts": [
-      "minio-operator/operator",
-      "minio-operator/tenant"
-    ]
-  },
-  {
-    "id": "ostara",
-    "helm": "ostara",
-    "repo": "https://krud-dev.github.io/ostara-helm",
-    "charts": [
-      "ostara/agent"
-    ]
-  },
-  {
     "id": "strimzi",
     "helm": "strimzi",
     "repo": "https://strimzi.io/charts",
@@ -103,33 +76,6 @@
     "repo": "https://redis-stack.github.io/helm-redis-stack/",
     "charts": [
       "redis-stack/redis-stack"
-    ]
-  },
-  {
-    "id": "bitnami",
-    "helm": "bitnami",
-    "repo": "https://charts.bitnami.com/bitnami",
-    "charts": [
-      "bitnami/redis",
-      "bitnami/redis-cluster",
-      "bitnami/minio",
-      "bitnami/mongodb",
-      "bitnami/elasticsearch",
-      "bitnami/schema-registry",
-      "bitnami/vault",
-      "bitnami/kafka",
-      "bitnami/valkey",
-      "bitnami/postgresql",
-      "bitnami/node-exporter"
-    ]
-  },
-  {
-    "id": "influxdata",
-    "helm": "influxdata",
-    "repo": "https://helm.influxdata.com",
-    "charts": [
-      "influxdata/influxdb",
-      "influxdata/influxdb2"
     ]
   },
   {

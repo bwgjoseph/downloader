@@ -4,24 +4,12 @@
     "pattern": "*win32.x86_64*.zip"
   },
   {
-    "repo": "https://github.com/adoptium/temurin21-binaries/",
-    "pattern": "*jdk_x64_windows*.zip"
-  },
-  {
     "repo": "https://github.com/adoptium/temurin25-binaries/",
     "pattern": "*jdk_x64_windows*.zip"
   },
   {
-    "repo": "https://github.com/GoogleContainerTools/jib/",
-    "pattern": "*jre*.zip"
-  },
-  {
     "repo": "https://github.com/kubernetes-sigs/kustomize/",
     "pattern": "*windows_amd64*.zip"
-  },
-  {
-    "repo": "https://github.com/microsoft/terminal/",
-    "pattern": "Microsoft.WindowsTerminalPreview_*.msixbundle"
   },
   {
     "repo": "https://github.com/mike-engel/jwt-cli/",
@@ -32,20 +20,8 @@
     "pattern": "*.zip"
   },
   {
-    "repo": "https://github.com/orhun/git-cliff/",
-    "pattern": "*x86_64-pc-windows-msvc*.zip"
-  },
-  {
-    "repo": "https://github.com/servicex-sh/httpx/",
-    "pattern": "*windows-x86_64*.zip"
-  },
-  {
     "repo": "https://github.com/stedolan/jq/",
     "pattern": "*win64*.exe"
-  },
-  {
-    "repo": "https://github.com/veler/DevToys/",
-    "pattern": "*DevToys*.msixbundle"
   },
   {
     "repo": "https://github.com/wagoodman/dive/",
@@ -72,12 +48,8 @@
     "pattern": "mRemoteNG*.msi"
   },
   {
-    "repo": "https://github.com/krud-dev/ostara/",
-    "pattern": "Ostara-Setup-*.exe"
-  },
-  {
     "repo": "https://github.com/gitextensions/gitextensions/",
-    "pattern": "GitExtensions-*.msi"
+    "pattern": "GitExtensions-x64-*.msi"
   },
   {
     "repo": "https://github.com/dbeaver/dbeaver/",
@@ -92,20 +64,12 @@
     "pattern": "wsl.*.x64.msi"
   },
   {
-    "repo": "https://github.com/argoproj/argo-workflows/",
-    "pattern": "argo-windows-amd64.exe.gz"
-  },
-  {
     "repo": "https://github.com/mikefarah/yq/",
     "pattern": "yq_windows_amd64.exe"
   },
   {
     "repo": "https://github.com/ynqa/jnv/",
     "pattern": "jnv-x86_64-unknown-linux-gnu.tar.xz"
-  },
-  {
-    "repo": "https://github.com/microsoft/kiota/",
-    "pattern": "win-x64.zip"
   },
   {
     "repo": "https://github.com/apache/maven-mvnd/",
@@ -118,10 +82,6 @@
   {
     "repo": "https://github.com/utkuozdemir/pv-migrate/",
     "pattern": "pv-migrate_*_windows_x86_64.zip"
-  },
-  {
-    "repo": "https://github.com/freelensapp/freelens/",
-    "pattern": "Freelens-*-windows-amd64.exe"
   },
   {
     "repo": "https://github.com/grafana/k6-studio/",
@@ -138,10 +98,6 @@
   {
     "repo": "https://github.com/astral-sh/uv/",
     "pattern": "uv-x86_64-pc-windows-msvc.zip"
-  },
-  {
-    "repo": "https://github.com/doitintl/kube-no-trouble/",
-    "pattern": "kubent-*-windows-amd64.tar.gz"
   },
   {
     "repo": "https://github.com/jreleaser/jreleaser/",
@@ -174,5 +130,13 @@
   {
     "repo": "https://github.com/borgbase/vykar/",
     "pattern": "vykar-*-x86_64-pc-windows-msvc.zip"
+  },
+  {
+    "repo": "https://github.com/jbangdev/jbang/",
+    "pattern": "jbang-*-windows-x64.zip"
+  },
+  {
+    "repo": "https://github.com/microsoft/coreutils/",
+    "pattern": "coreutils-*-x64.zip"
   }
 ]
